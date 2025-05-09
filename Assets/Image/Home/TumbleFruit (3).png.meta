@@ -1,0 +1,611 @@
+fileFormatVersion: 2
+guid: 70c9cb3f3832e4f41bf5bef8e3b444c7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4872215118226486289
+    second: TumbleFruit (3)_0
+  - first:
+      213: -2647551840868948230
+    second: TumbleFruit (3)_1
+  - first:
+      213: 9077172830664155897
+    second: TumbleFruit (3)_2
+  - first:
+      213: 6267279103805391107
+    second: TumbleFruit (3)_3
+  - first:
+      213: 1554959363219100799
+    second: TumbleFruit (3)_4
+  - first:
+      213: -2887154299970361961
+    second: TumbleFruit (3)_5
+  - first:
+      213: -673874848298697329
+    second: TumbleFruit (3)_6
+  - first:
+      213: 6347023181431799082
+    second: TumbleFruit (3)_7
+  - first:
+      213: 1846761349787121371
+    second: TumbleFruit (3)_8
+  - first:
+      213: -6384476050640238147
+    second: TumbleFruit (3)_9
+  - first:
+      213: -8959449873266244244
+    second: TumbleFruit (3)_10
+  - first:
+      213: 2836805955122242010
+    second: TumbleFruit (3)_11
+  - first:
+      213: -4145946867453833198
+    second: TumbleFruit (3)_12
+  - first:
+      213: 5854656990560392224
+    second: TumbleFruit (3)_13
+  - first:
+      213: 5003677649734028175
+    second: TumbleFruit (3)_14
+  - first:
+      213: -8563733004708992114
+    second: TumbleFruit (3)_15
+  - first:
+      213: -4972880845469704944
+    second: TumbleFruit (3)_16
+  - first:
+      213: 1579417403336810469
+    second: TumbleFruit (3)_17
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: TumbleFruit (3)_0
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 409
+        width: 167
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: feb82d00a2a626cb0800000000000000
+      internalID: -4872215118226486289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TumbleFruit (3)_1
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 562
+        width: 190
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af62398c0a1024bd0800000000000000
+      internalID: -2647551840868948230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TumbleFruit (3)_2
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 393
+        width: 189
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f26098b89898fd70800000000000000
+      internalID: 9077172830664155897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TumbleFruit (3)_3
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 132
+        width: 167
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3018c82b329d9f650800000000000000
+      internalID: 6267279103805391107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TumbleFruit (3)_4
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 232
+        width: 267
+        height: 307
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7497d46d43549510800000000000000
+      internalID: 1554959363219100799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TumbleFruit (3)_5
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 130
+        width: 183
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79566820674cee7d0800000000000000
+      internalID: -2887154299970361961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TumbleFruit (3)_6
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 56
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8df514556ae5a6f0800000000000000
+      internalID: -673874848298697329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TumbleFruit (3)_7
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 56
+        width: 61
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2d796e94f7251850800000000000000
+      internalID: 6347023181431799082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TumbleFruit (3)_8
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 55
+        width: 42
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd67bfeb9a301a910800000000000000
+      internalID: 1846761349787121371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TumbleFruit (3)_9
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 56
+        width: 16
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db9899cbbd8c567a0800000000000000
+      internalID: -6384476050640238147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TumbleFruit (3)_10
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 55
+        width: 41
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c650c093fc3a9a380800000000000000
+      internalID: -8959449873266244244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TumbleFruit (3)_11
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 56
+        width: 38
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad126c37cfb5e5720800000000000000
+      internalID: 2836805955122242010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TumbleFruit (3)_12
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 56
+        width: 29
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21055cb4a43a676c0800000000000000
+      internalID: -4145946867453833198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TumbleFruit (3)_13
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 98
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0241c1c738bef3150800000000000000
+      internalID: 5854656990560392224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TumbleFruit (3)_14
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 55
+        width: 27
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8b45f2df42a07540800000000000000
+      internalID: 5003677649734028175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TumbleFruit (3)_15
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 55
+        width: 40
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8b280f6432872980800000000000000
+      internalID: -8563733004708992114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TumbleFruit (3)_16
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 55
+        width: 40
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01d1f6fe737ccfab0800000000000000
+      internalID: -4972880845469704944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TumbleFruit (3)_17
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 56
+        width: 16
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5efd5fd92c73be510800000000000000
+      internalID: 1579417403336810469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      TumbleFruit (3)_0: -4872215118226486289
+      TumbleFruit (3)_1: -2647551840868948230
+      TumbleFruit (3)_10: -8959449873266244244
+      TumbleFruit (3)_11: 2836805955122242010
+      TumbleFruit (3)_12: -4145946867453833198
+      TumbleFruit (3)_13: 5854656990560392224
+      TumbleFruit (3)_14: 5003677649734028175
+      TumbleFruit (3)_15: -8563733004708992114
+      TumbleFruit (3)_16: -4972880845469704944
+      TumbleFruit (3)_17: 1579417403336810469
+      TumbleFruit (3)_2: 9077172830664155897
+      TumbleFruit (3)_3: 6267279103805391107
+      TumbleFruit (3)_4: 1554959363219100799
+      TumbleFruit (3)_5: -2887154299970361961
+      TumbleFruit (3)_6: -673874848298697329
+      TumbleFruit (3)_7: 6347023181431799082
+      TumbleFruit (3)_8: 1846761349787121371
+      TumbleFruit (3)_9: -6384476050640238147
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

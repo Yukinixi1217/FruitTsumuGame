@@ -1,0 +1,23 @@
+# ninja log v5
+11	1485	7682447070698388	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	db2fae8558b5fee5
+43	361	7682447059410989	FramePacing/CMakeFiles/swappywrapper.dir/UnitySwappyWrapper.cpp.o	d69d949e46c4288a
+363	571	7682447061766179	C:/Users/Yukinixi/Unity/FruitTsumuGame/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/6z2oi3o6/obj/arm64-v8a/libswappywrapper.so	4e93bdbc9885c68d
+26	1094	7682447066822911	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	17d47ae9a1ab6f41
+32	1209	7682447067895736	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	e75a3045ee3240a9
+1	1122	7682447067017074	GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o	926078a0e33f2a26
+6	1259	7682447068402215	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	f0b3ada957cc7261
+1485	1562	7682447071748770	C:/Users/Yukinixi/Unity/FruitTsumuGame/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/6z2oi3o6/obj/arm64-v8a/libgame.so	5d42f17f851fe4f
+38	1142	7682447067220136	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	48723e24ddbadbf8
+20	1203	7682447067848054	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	42bf27655451b1d5
+15	1373	7682447069594677	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	a97d93143370ae9
+50	351	7683709682517594	FramePacing/CMakeFiles/swappywrapper.dir/UnitySwappyWrapper.cpp.o	d69d949e46c4288a
+352	687	7683709686106608	C:/Users/Yukinixi/Unity/FruitTsumuGame/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/6z2oi3o6/obj/arm64-v8a/libswappywrapper.so	4e93bdbc9885c68d
+26	1150	7683709690335089	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	17d47ae9a1ab6f41
+16	1182	7683709690771397	GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o	926078a0e33f2a26
+38	1215	7683709691057580	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	48723e24ddbadbf8
+11	1266	7683709691713425	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	42bf27655451b1d5
+43	1277	7683709691713425	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	e75a3045ee3240a9
+21	1317	7683709692185334	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	f0b3ada957cc7261
+32	1458	7683709693614130	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	a97d93143370ae9
+7	1553	7683709694518337	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	db2fae8558b5fee5
+1553	1660	7683709695789605	C:/Users/Yukinixi/Unity/FruitTsumuGame/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/6z2oi3o6/obj/arm64-v8a/libgame.so	5d42f17f851fe4f
