@@ -1947,7 +1947,7 @@ GameObject:
   - component: {fileID: 6012353962505993119}
   - component: {fileID: 6385856251961133321}
   m_Layer: 5
-  m_Name: Icon_HomeOnMenu
+  m_Name: Icon_MailOnMenu
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2597,7 +2597,7 @@ GameObject:
   - component: {fileID: 1629876520926141342}
   - component: {fileID: 7651224530239819778}
   m_Layer: 5
-  m_Name: HomeText (Legacy)Menu
+  m_Name: MailText (Legacy)Menu
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4232,7 +4232,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 2426226236769462650, guid: 723bb677d4f83e842a2010d99e78b166, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 834feee867953eb459247ea380a86f95, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -4300,7 +4300,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -1668867034871133485, guid: 76e1f85713e06d64ab20df93b3a41aaf, type: 3}
+  m_Sprite: {fileID: 21300000, guid: ef8c61b15eca3f64f8662d47a7c78c12, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -4578,7 +4578,7 @@ GameObject:
   - component: {fileID: 2130589139666389889}
   - component: {fileID: 7334844147692289311}
   m_Layer: 5
-  m_Name: Icon_HomeOffMenu
+  m_Name: Icon_MailOffMenu
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5081,7 +5081,7 @@ GameObject:
   - component: {fileID: 3426906312280050439}
   - component: {fileID: 828248817175775805}
   m_Layer: 5
-  m_Name: ADsButtonBackGroundImageMenu
+  m_Name: MailButtonBackGroundImageMenu
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8737,7 +8737,7 @@ GameObject:
   - component: {fileID: 6029702882898335826}
   - component: {fileID: 3036043790018745794}
   m_Layer: 5
-  m_Name: UIPanel_HomeMenu
+  m_Name: UIPanel_MailMenu
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9540,7 +9540,7 @@ GameObject:
   - component: {fileID: 881481326140094245}
   - component: {fileID: 2935861004651553544}
   m_Layer: 5
-  m_Name: HomeBackgroundContainerMenu
+  m_Name: MailBackgroundContainerMenu
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9587,7 +9587,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: Home
+  m_Text: Mail
 --- !u!222 &7677016958309375935
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -9929,7 +9929,7 @@ GameObject:
   - component: {fileID: 3009411987135003228}
   - component: {fileID: 7845726677574908340}
   m_Layer: 5
-  m_Name: UI_HomeButton (Legacy)Menu
+  m_Name: UI_MailButton (Legacy)Menu
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10297,7 +10297,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5915837047427565471}
   m_Layer: 5
-  m_Name: HomeOverlayIconsMenu
+  m_Name: MailOverlayIconsMenu
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
