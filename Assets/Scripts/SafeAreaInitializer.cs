@@ -2,6 +2,8 @@
 
 public class SafeAreaInitializer : MonoBehaviour
 {
+    [SerializeField] private string[] targetNames = new string[] { "BackgroundPanel", "SafeAreaRoot" }; // シーンにより異なる名前に対応
+
     void Start()
     {
         if (!Application.isPlaying) return;
@@ -12,17 +14,26 @@ public class SafeAreaInitializer : MonoBehaviour
         {
             string lowerName = rt.name.ToLowerInvariant();
             bool isFullStretch = rt.anchorMin == Vector2.zero && rt.anchorMax == Vector2.one;
-            bool nameMatches = lowerName == "backgroundpanel"; // ← 完全一致！
+            bool nameMatches = false;
 
-            if (isFullStretch && nameMatches && rt.GetComponent<SafeAreaAdjuster>() == null)
+            foreach (var name in targetNames)
             {
-                rt.gameObject.AddComponent<SafeAreaAdjuster>();
-                Debug.Log($"✅ SafeAreaAdjuster SUCCESSFULLY ATTACHED to GameObject: '{rt.name}' in Scene: {gameObject.scene.name}");
+                if (lowerName == name.ToLowerInvariant())
+                {
+                    nameMatches = true;
+                    break;
+                }
             }
 
-            if (rt.GetComponent<SafeAreaAdjuster>() != null)
+            if (isFullStretch && nameMatches && rt.GetComponent<SafeAreaWithSwipeQuit>() == null)
             {
-                Debug.Log($"📌 Confirmed SafeAreaAdjuster present on: {rt.name}");
+                rt.gameObject.AddComponent<SafeAreaWithSwipeQuit>();
+                Debug.Log($"✅ SafeAreaWithSwipeQuit attached to: '{rt.name}' in Scene: {gameObject.scene.name}");
+            }
+
+            if (rt.GetComponent<SafeAreaWithSwipeQuit>() != null)
+            {
+                Debug.Log($"📌 Confirmed SafeAreaWithSwipeQuit present on: {rt.name}");
             }
         }
     }

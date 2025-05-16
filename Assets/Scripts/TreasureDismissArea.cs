@@ -1,22 +1,21 @@
-using UnityEngine;
+ï»¿using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.UI;
 
 public class TreasureDismissArea : MonoBehaviour, IPointerClickHandler
 {
-    [SerializeField] private GameObject treasurePanel;
+    [SerializeField] private GameObject treasureCanvas;
+    [SerializeField] private GameObject homeCanvas;
 
     public void OnPointerClick(PointerEventData eventData)
     {
         GameObject clicked = eventData.pointerCurrentRaycast.gameObject;
 
-        // ƒ{ƒ^ƒ“‚¾‚Á‚½‚ç–³‹
-        if (clicked != null && clicked.GetComponent<UnityEngine.UI.Button>() != null)
+        if (clicked != null && clicked.GetComponent<Button>() != null)
             return;
 
-        // •Â‚¶‚éˆ—
-        if (treasurePanel != null)
-        {
-            treasurePanel.SetActive(false);
-        }
+        if (treasureCanvas != null) treasureCanvas.SetActive(false);
+        if (homeCanvas != null) homeCanvas.SetActive(true);
     }
+
 }

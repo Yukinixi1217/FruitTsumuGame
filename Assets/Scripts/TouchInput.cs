@@ -1,38 +1,30 @@
 using UnityEngine;
-using UnityEngine.InputSystem;
 
 public class TouchInput : MonoBehaviour
 {
-    private InputSystem_Actions controls;  // Input Action の参照
+    private InputSystem_Actions controls;
 
-    void Awake()
+    public Vector2 TouchPosition { get; private set; }
+    public bool IsPressed { get; private set; }
+
+    private void Awake()
     {
-        controls = new InputSystem_Actions(); // Input Action を生成
+        controls = new InputSystem_Actions();
     }
 
-    void OnEnable()
+    private void OnEnable()
     {
-        controls.Enable(); // アクションを有効化
-        controls.Player.TouchPress.performed += ctx => OnTouchPress(ctx);
+        controls.Enable();
+        controls.Player.TouchPress.started += _ => IsPressed = true;
+        controls.Player.TouchPress.canceled += _ => IsPressed = false;
+        controls.Player.TouchPosition.performed += ctx => TouchPosition = ctx.ReadValue<Vector2>();
     }
 
-    void OnDisable()
+    private void OnDisable()
     {
-        controls.Disable(); // アクションを無効化
-        controls.Player.TouchPress.performed -= ctx => OnTouchPress(ctx);
-    }
-
-    void Update()
-    {
-        if (controls.Player.TouchPress.WasPressedThisFrame()) // タッチ検出
-        {
-            //Debug.Log("タッチされた！");
-        }
-    }
-    private void OnTouchPress(InputAction.CallbackContext context)
-    {
-        //Debug.Log("タッチ入力またはクリックを検知");
-        Vector2 position = controls.Player.TouchPosition.ReadValue<Vector2>();
-        //Debug.Log($"タッチ位置: {position}");
+        controls.Player.TouchPress.started -= _ => IsPressed = true;
+        controls.Player.TouchPress.canceled -= _ => IsPressed = false;
+        controls.Player.TouchPosition.performed -= ctx => TouchPosition = ctx.ReadValue<Vector2>();
+        controls.Disable();
     }
 }

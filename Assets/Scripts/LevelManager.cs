@@ -24,6 +24,8 @@ public class LevelManager : MonoBehaviour
     public List<Fruit> _SelectFruits = new List<Fruit>(); // プレイヤーが選択中のフルーツ
     private string _SelectID = ""; // 選択されたフルーツの種類（ID）
     private int _Score = -1; // スコア
+    public int CurrentScore => _Score;
+
     private float _CurrentTime = 256; // 残り時間
     private bool _IsPlaying = true; // ゲームが進行中かどうか
     public bool AllowFruitSwap = true; // Inspector で交換可否を設定

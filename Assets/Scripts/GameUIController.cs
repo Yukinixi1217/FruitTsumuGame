@@ -1,155 +1,114 @@
-ï»¿using System.Collections.Generic;
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using UnityEngine.EventSystems;
 
-public class GameUIController : MonoBehaviour
+public class GameUIController : MonoBehaviour, IUIManager
 {
-    [System.Serializable]
-    public class UIGroupEntry
+    [SerializeField] private List<CanvasGroup> uiGroups;
+    [SerializeField] private Image settingDismissArea;
+    [SerializeField] private Image treasureDismissArea;
+
+    private Dictionary<string, CanvasGroup> uiGroupMap = new Dictionary<string, CanvasGroup>();
+    public void Hide()
     {
-        public string name;
-        public CanvasGroup canvasGroup;
+        Debug.Log("GameUIController.Hide() ‚Í–¢À‘•‚Å‚·");
     }
-
-    [Header("GameScene ç”¨ UIã‚°ãƒ«ãƒ¼ãƒ—")]
-    [SerializeField] private List<UIGroupEntry> uiGroups = new List<UIGroupEntry>();
-
-    [Header("ã‚ªãƒ¼ãƒãƒ¼ãƒ¬ã‚¤ï¼ˆæš—è»¢ãªã©ï¼‰")]
-    [SerializeField] private Image dimOverlayImage;
-
-    [Header("é™¤å¤–ã™ã‚‹ã‚°ãƒ«ãƒ¼ãƒ—åï¼ˆé–‰ã˜ãªã„UIï¼‰")]
-    [SerializeField] private List<string> excludedGroupNames = new List<string>();
-
-    private Dictionary<string, CanvasGroup> groupDict;
-
-    [Header("DismissAreaï¼ˆã‚¿ãƒƒãƒ—ã§é–‰ã˜ã‚‹èƒŒæ™¯ï¼‰")]
-    [SerializeField] private Image SettingDismissArea;
-    [SerializeField] private Image TreasureDismissArea;
+    public void Show(string name)
+    {
+        Debug.Log($"GameUIController.Show({name}) ŒÄ‚Ño‚µ");
+        // •K—v‚É‰‚¶‚ÄUI‚Ì•\¦ˆ—‚ğ’Ç‰Á
+    }
 
     private void Awake()
     {
-        groupDict = new Dictionary<string, CanvasGroup>();
-
-        foreach (var entry in uiGroups)
+        foreach (var group in uiGroups)
         {
-            if (entry != null && entry.canvasGroup != null && !string.IsNullOrEmpty(entry.name))
+            if (group != null)
             {
-                groupDict[entry.name] = entry.canvasGroup;
-                Debug.Log($"[groupDictç™»éŒ²] name={entry.name}, from={entry.canvasGroup.gameObject.name}");
-            }
-        }
-
-        Show("BackGround");
-    }
-
-    private void Start()
-    {
-        Debug.Log("ğŸ” GameUIController.Start() é–‹å§‹");
-
-        if (SettingDismissArea != null)
-        {
-            Debug.Log("âœ… SettingDismissArea å‚ç…§ã‚ã‚Š");
-
-            var button = SettingDismissArea.GetComponent<Button>();
-            if (button != null)
-            {
-                Debug.Log("âœ… SettingDismissArea ã« Button ã‚ã‚Š â†’ ãƒªã‚¹ãƒŠãƒ¼ç™»éŒ²ä¸­");
-
-                button.onClick.AddListener(() =>
+                string key = group.gameObject.name;
+                if (!uiGroupMap.ContainsKey(key))
                 {
-                    Debug.Log("[Button] SettingDismissArea clicked");
-                    CloseAllPopups();
-                });
-            }
-            else
-            {
-                Debug.LogWarning("âš  SettingDismissArea ã« Button ãŒãªã„");
+                    uiGroupMap.Add(key, group);
+                    Debug.Log($"[“o˜^] uiGroups: {key} ¨ {group.gameObject.name}");
+                }
             }
         }
-        else
+
+        CloseAllPopups();
+
+        foreach (var kvp in uiGroupMap)
         {
-            Debug.LogWarning("âš  SettingDismissArea ãŒ null ã§ã™");
+            Debug.Log($"[Šm”F] {kvp.Key} alpha: {kvp.Value.alpha}");
         }
     }
 
-    public void Show(string groupName)
+    public void ShowPopup(string popupName)
     {
-        Debug.Log($"Showå‘¼ã³å‡ºã—: [{groupName}]");
-
-        foreach (var kv in groupDict)
-        {
-            bool isTarget = kv.Key == groupName;
-            kv.Value.alpha = isTarget ? 1 : 0;
-            kv.Value.interactable = isTarget;
-            kv.Value.blocksRaycasts = isTarget;
-        }
-
-        SetDismissAreas(groupName);
+        Debug.Log($"[ShowPopup] •\¦: {popupName}");
+        StartCoroutine(ShowPopupAfterDelay(popupName));
     }
 
-    public void ShowPopup(string groupName)
+    private IEnumerator ShowPopupAfterDelay(string popupName)
     {
-        Debug.Log($"ShowPopupå‘¼ã³å‡ºã—: [{groupName}]");
+        yield return new WaitForSeconds(0.05f);
 
-        foreach (var kv in groupDict)
+        foreach (var kvp in uiGroupMap)
         {
-            if (excludedGroupNames.Contains(kv.Key)) continue;
+            bool isTarget = kvp.Key == popupName;
+            kvp.Value.alpha = isTarget ? 1f : 0f;
+            kvp.Value.interactable = isTarget;
+            kvp.Value.blocksRaycasts = isTarget;
 
-            bool isTarget = kv.Key == groupName;
-            kv.Value.alpha = isTarget ? 1 : 0;
-            kv.Value.interactable = isTarget;
-            kv.Value.blocksRaycasts = isTarget;
+            if (isTarget)
+                Debug.Log($"[ShowPopup] {popupName} ‚ğ•\¦‚µ‚Ü‚µ‚½");
         }
 
-        SetDismissAreas(groupName);
-    }
-
-    private void SetDismissAreas(string groupName)
-    {
-        SetDismissAreaState(SettingDismissArea, groupName == "Settings");
-        SetDismissAreaState(TreasureDismissArea, groupName == "Treasure");
-    }
-
-    private void SetDismissAreaState(Image area, bool enabled)
-    {
-        if (area == null) return;
-
-        var cg = area.GetComponent<CanvasGroup>();
-        var btn = area.GetComponent<Button>();
-
-        if (cg != null)
-        {
-            cg.alpha = enabled ? 1 : 0;
-            cg.interactable = enabled;
-            cg.blocksRaycasts = enabled;
-        }
-
-        if (btn != null)
-        {
-            btn.interactable = enabled;
-        }
-
-        area.raycastTarget = enabled;
-
-        Debug.Log($"DismissAreaè¨­å®šå¤‰æ›´: {area.name} alpha={cg?.alpha} interactable={cg?.interactable} blocksRaycasts={cg?.blocksRaycasts} raycastTarget={area.raycastTarget} button.interactable={btn?.interactable}");
+        SetDismissAreas("SettingDismissArea", popupName == "SettingsPanel");
+        SetDismissAreas("TreasureDismissArea", popupName == "TreasurePanel");
     }
 
     public void CloseAllPopups()
     {
-        Debug.Log("=== CloseAllPopups é–‹å§‹ ===");
+        Debug.Log("=== CloseAllPopups ŠJn ===");
 
-        foreach (var kv in groupDict)
+        foreach (var kvp in uiGroupMap)
         {
-            if (excludedGroupNames.Contains(kv.Key)) continue;
-
-            kv.Value.alpha = 0;
-            kv.Value.interactable = false;
-            kv.Value.blocksRaycasts = false;
+            var group = kvp.Value;
+            group.alpha = 0f;
+            group.interactable = false;
+            group.blocksRaycasts = false;
         }
 
-        SetDismissAreas("");
+        SetDismissAreas("SettingDismissArea", false);
+        SetDismissAreas("TreasureDismissArea", false);
 
-        Debug.Log("=== CloseAllPopups çµ‚äº† ===");
+        Debug.Log("=== CloseAllPopups I—¹ ===");
+    }
+
+    private void SetDismissAreas(string areaName, bool state)
+    {
+        Image target = null;
+        if (areaName == "SettingDismissArea") target = settingDismissArea;
+        else if (areaName == "TreasureDismissArea") target = treasureDismissArea;
+
+        if (target != null)
+        {
+            SetDismissAreaState(target, state);
+        }
+    }
+
+    private void SetDismissAreaState(Image image, bool state)
+    {
+        image.canvasRenderer.SetAlpha(state ? 1f : 0f);
+
+        if (image.TryGetComponent(out Button button))
+        {
+            button.interactable = state;
+        }
+
+        image.raycastTarget = state;
+
+        Debug.Log($"DismissAreaİ’è•ÏX: {image.name} alpha={(state ? 1 : 0)} interactable={state} blocksRaycasts={state} raycastTarget={state} button.interactable={state}");
     }
 }

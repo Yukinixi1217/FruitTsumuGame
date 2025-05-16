@@ -1,157 +1,141 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.EventSystems;
 
-public class UIController : MonoBehaviour
+public class UIController : MonoBehaviour, IUIManager
 {
-    [SerializeField] private Image popupDismissAreaImage;
-    [SerializeField] private Image settingDismissAreaImage;
-    [SerializeField] private Image treasureDismissAreaImage;
+    [System.Serializable]
+    public class UIGroupEntry
+    {
+        public string name;
+        public CanvasGroup canvasGroup;
+    }
 
-    [SerializeField] private Button popupDismissAreaButton;
-    [SerializeField] private Button settingDismissAreaButton;
-    [SerializeField] private Button treasureDismissAreaButton;
+    [Header("UI Groups to Manage")]
+    [SerializeField] private List<UIGroupEntry> uiGroups = new();
 
-    private Dictionary<string, CanvasGroup> groupDict = new Dictionary<string, CanvasGroup>();
+    private Dictionary<string, CanvasGroup> groupDict;
 
-    private string currentGroupName = "Home";
+    [Header("Optional Overlay")]
+    [SerializeField] private Image dimOverlayImage;
+
+    [Header("DismissArea Buttons")]
+    [SerializeField] private Image popupDismissArea;
+    [SerializeField] private Image settingDismissArea;
+    [SerializeField] private Image treasureDismissArea;
+
+    private readonly HashSet<string> excludedGroupNames = new() { "Home" };
+    public void Hide()
+    {
+        Debug.Log("UIController.Hide() は未実装です");
+    }
 
     private void Awake()
     {
-        // シーン内の全CanvasGroupを取得し、名前で管理辞書に登録
-        foreach (var group in GetComponentsInChildren<CanvasGroup>(true))
+        groupDict = new();
+
+        foreach (var entry in uiGroups)
         {
-            string name = group.gameObject.name.Replace("Canvas", "");
-            groupDict[name] = group;
-            Debug.Log($"登録: {name} → {group.gameObject.name}");
+            if (entry != null && entry.canvasGroup != null && !string.IsNullOrEmpty(entry.name))
+            {
+                groupDict[entry.name] = entry.canvasGroup;
+                Debug.Log($"[登録] uiGroups: {entry.name} → {entry.canvasGroup.name}");
+            }
         }
 
-        // 起動時にHome画面を表示
         Show("Home");
     }
 
     private void Start()
     {
-        // Dismissボタンにクリックイベントを設定
-        if (popupDismissAreaButton != null)
-        {
-            popupDismissAreaButton.onClick.AddListener(() =>
-            {
-                Debug.Log("[Button] PopupDismissArea clicked");
-                CloseAllPopups();
-            });
-        }
+        if (popupDismissArea != null && popupDismissArea.TryGetComponent(out Button popupBtn))
+            popupBtn.onClick.AddListener(() => { Debug.Log("[Button] PopupDismissArea clicked"); CloseAllPopups(); });
 
-        if (settingDismissAreaButton != null)
-        {
-            settingDismissAreaButton.onClick.AddListener(() =>
-            {
-                Debug.Log("[Button] SettingDismissArea clicked");
-                CloseAllPopups();
-            });
-        }
+        if (settingDismissArea != null && settingDismissArea.TryGetComponent(out Button settingBtn))
+            settingBtn.onClick.AddListener(() => { Debug.Log("[Button] SettingDismissArea clicked"); CloseAllPopups(); });
 
-        if (treasureDismissAreaButton != null)
-        {
-            treasureDismissAreaButton.onClick.AddListener(() =>
-            {
-                Debug.Log("[Button] TreasureDismissArea clicked");
-                CloseAllPopups();
-            });
-        }
-
+        if (treasureDismissArea != null && treasureDismissArea.TryGetComponent(out Button treasureBtn))
+            treasureBtn.onClick.AddListener(() => { Debug.Log("[Button] TreasureDismissArea clicked"); CloseAllPopups(); });
     }
 
-    // 指定のUIグループを表示（初期表示やメニュー切替）
-    public void Show(string targetGroupName)
+    public void Show(string targetName)
     {
-        Debug.Log($"Show呼び出し: [{targetGroupName}]");
+        Debug.Log($"Show呼び出し: [{targetName}]");
 
-        foreach (var entry in groupDict)
+        foreach (var kvp in groupDict)
         {
-            SetGroupState(entry.Key, entry.Value, targetGroupName);
+            bool isTarget = kvp.Key == targetName;
+            var group = kvp.Value;
+
+            group.alpha = isTarget ? 1f : 0f;
+            group.interactable = isTarget;
+            group.blocksRaycasts = isTarget;
         }
 
-        SetDismissAreas(targetGroupName);
-        currentGroupName = targetGroupName;
+        SetDismissAreas(targetName);
     }
 
-    // ポップアップ専用表示メソッド（Showと挙動は同じ）
-    public void ShowPopup(string targetGroupName)
+    public void ShowPopup(string popupName)
     {
-        Debug.Log($"ShowPopup呼び出し: [{targetGroupName}]");
+        Debug.Log($"ShowPopup呼び出し: [{popupName}]");
 
-        foreach (var entry in groupDict)
+        if (groupDict.TryGetValue(popupName, out var popupGroup))
         {
-            SetGroupState(entry.Key, entry.Value, targetGroupName);
+            popupGroup.alpha = 1f;
+            popupGroup.interactable = true;
+            popupGroup.blocksRaycasts = true;
         }
 
-        SetDismissAreas(targetGroupName);
-        currentGroupName = targetGroupName;
+        SetDismissAreas(popupName);
     }
 
-    // UI表示状態を切り替える（CanvasGroup制御）
-    private void SetGroupState(string groupName, CanvasGroup group, string targetGroupName)
+    public void CloseAllPopups()
     {
-        if (group == null) return;
+        Debug.Log("=== CloseAllPopups 開始 ===");
 
-        bool isTarget = groupName == targetGroupName;
+        foreach (var kvp in groupDict)
+        {
+            if (excludedGroupNames.Contains(kvp.Key)) continue;
 
-        group.alpha = isTarget ? 1f : 0f;
-        group.interactable = isTarget;
-        group.blocksRaycasts = isTarget;
-        group.gameObject.SetActive(true);
+            var group = kvp.Value;
+            group.alpha = 0f;
+            group.interactable = false;
+            group.blocksRaycasts = false;
+        }
+
+        SetDismissAreaState(popupDismissArea, false);
+        SetDismissAreaState(settingDismissArea, false);
+        SetDismissAreaState(treasureDismissArea, false);
+
+        Debug.Log("すべてのポップアップとDismissAreaを無効化完了");
     }
 
-    // 現在アクティブなグループに応じてDismissエリアを有効化
     private void SetDismissAreas(string activeGroup)
     {
-        SetDismissAreaState(popupDismissAreaImage, activeGroup == "Popup");
-        SetDismissAreaState(settingDismissAreaImage, activeGroup == "Settings");
-        SetDismissAreaState(treasureDismissAreaImage, activeGroup == "Treasure");
+        SetDismissAreaState(popupDismissArea, activeGroup == "Popup");
+        SetDismissAreaState(settingDismissArea, activeGroup == "Settings");
+        SetDismissAreaState(treasureDismissArea, activeGroup == "Treasure");
     }
 
-    // 各Dismiss画像エリアに対するUI設定切り替え処理
-    private void SetDismissAreaState(Image dismissArea, bool isActive)
+    private void SetDismissAreaState(Image image, bool state)
     {
-        if (dismissArea == null) return;
+        if (image == null) return;
 
-        dismissArea.raycastTarget = isActive;
-
-        var cg = dismissArea.GetComponent<CanvasGroup>();
+        var cg = image.GetComponent<CanvasGroup>();
         if (cg != null)
         {
-            cg.alpha = isActive ? 1f : 0f;
-            cg.interactable = isActive;
-            cg.blocksRaycasts = isActive;
+            cg.alpha = state ? 1f : 0f;
+            cg.interactable = state;
+            cg.blocksRaycasts = state;
             cg.ignoreParentGroups = true;
         }
 
-        var btn = dismissArea.GetComponent<Button>();
-        if (btn != null)
-        {
-            btn.interactable = isActive;
-        }
+        image.raycastTarget = state;
 
-        Debug.Log($"DismissArea設定変更: {dismissArea.name} alpha={cg?.alpha} interactable={cg?.interactable} blocksRaycasts={cg?.blocksRaycasts} raycastTarget={dismissArea.raycastTarget} button.interactable={btn?.interactable}");
-    }
+        if (image.TryGetComponent(out Button button))
+            button.interactable = state;
 
-    // 全ポップアップを閉じる（Home以外を非表示）
-    public void CloseAllPopups()
-    {
-        Debug.Log("CloseAllPopups開始");
-
-        foreach (var entry in groupDict)
-        {
-            if (entry.Key != "Home")
-            {
-                entry.Value.alpha = 0f;
-                entry.Value.interactable = false;
-                entry.Value.blocksRaycasts = false;
-            }
-        }
-
-        SetDismissAreas("None");
-        Debug.Log("すべてのポップアップとDismissAreaを無効化完了");
+        Debug.Log($"DismissArea設定変更: {image.name} alpha={cg?.alpha} interactable={cg?.interactable} blocksRaycasts={cg?.blocksRaycasts} raycastTarget={image.raycastTarget} button.interactable={button?.interactable}");
     }
 }

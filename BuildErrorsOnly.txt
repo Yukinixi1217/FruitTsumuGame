@@ -1,0 +1,2174 @@
+[Error] [Package Manager Window] Error adding package: https://github.com/Unity-Technologies/unity-mediate.git.
+Unable to add package [https://github.com/Unity-Technologies/unity-mediate.git]:
+  Error when executing git command. remote: Repository not found.
+  fatal: repository 'https://github.com/Unity-Technologies/unity-mediate.git/' not found
+
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+-----------------------------
+[Error] [Package Manager Window] Error adding package: https://github.com/Unity-Technologies/unity-mediate.git.
+Unable to add package [https://github.com/Unity-Technologies/unity-mediate.git]:
+  Error when executing git command. remote: Repository not found.
+  fatal: repository 'https://github.com/Unity-Technologies/unity-mediate.git/' not found
+
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+-----------------------------
+[Error] Library\PackageCache\com.unity.services.levelplay\Editor\IntegrationManager\UIComponents\CoreComponents\SkadNetworkIdComponent.cs(63,36): error CS1061: 'IEditorAnalyticsService' does not contain a definition for 'SendInteractWithSkanIdCheckBox' and no accessible extension method 'SendInteractWithSkanIdCheckBox' accepting a first argument of type 'IEditorAnalyticsService' could be found (are you missing a using directive or an assembly reference?)
+
+-----------------------------
+[Error] Library\PackageCache\com.unity.services.levelplay\Editor\IosAdsSupport\Parser\SkAdNetworkXmlParser.cs(26,38): error CS1503: Argument 1: cannot convert from 'System.IO.Stream' to 'string'
+
+-----------------------------
+[Error] Library\PackageCache\com.unity.services.levelplay\Editor\IosAdsSupport\Parser\SkAdNetworkXmlParser.cs(29,41): error CS1061: 'IXmlDocument' does not contain a definition for 'GetElementsByTagName' and no accessible extension method 'GetElementsByTagName' accepting a first argument of type 'IXmlDocument' could be found (are you missing a using directive or an assembly reference?)
+
+-----------------------------
+[Error] Library\PackageCache\com.unity.services.levelplay\Editor\Service\NetworkManagerSettingsService.cs(14,52): error CS0117: 'FilePaths' does not contain a definition for 'NetworkManagerSettingsFilePath'
+
+-----------------------------
+[Error] Assets\Scripts\AdsManager.cs(3,22): error CS0234: The type or namespace name 'Mediation' does not exist in the namespace 'Unity.Services' (are you missing an assembly reference?)
+
+-----------------------------
+[Error] Assets\Scripts\AdsManager.cs(48,29): error CS0246: The type or namespace name 'RewardedAdClosedEventArgs' could not be found (are you missing a using directive or an assembly reference?)
+
+-----------------------------
+[Error] Assets\Scripts\AdsManager.cs(9,13): error CS0246: The type or namespace name 'IRewardedAd' could not be found (are you missing a using directive or an assembly reference?)
+
+-----------------------------
+[Error] Library\PackageCache\com.unity.services.levelplay\Editor\IosAdsSupport\Parser\SkAdNetworkXmlParser.cs(26,38): error CS1503: Argument 1: cannot convert from 'System.IO.Stream' to 'string'
+
+-----------------------------
+[Error] Library\PackageCache\com.unity.services.levelplay\Editor\IosAdsSupport\Parser\SkAdNetworkXmlParser.cs(29,41): error CS1061: 'IXmlDocument' does not contain a definition for 'GetElementsByTagName' and no accessible extension method 'GetElementsByTagName' accepting a first argument of type 'IXmlDocument' could be found (are you missing a using directive or an assembly reference?)
+
+-----------------------------
+[Error] Library\PackageCache\com.unity.services.levelplay\Editor\IntegrationManager\UIComponents\CoreComponents\SkadNetworkIdComponent.cs(63,36): error CS1061: 'IEditorAnalyticsService' does not contain a definition for 'SendInteractWithSkanIdCheckBox' and no accessible extension method 'SendInteractWithSkanIdCheckBox' accepting a first argument of type 'IEditorAnalyticsService' could be found (are you missing a using directive or an assembly reference?)
+
+-----------------------------
+[Error] Library\PackageCache\com.unity.services.levelplay\Editor\Service\NetworkManagerSettingsService.cs(14,52): error CS0117: 'FilePaths' does not contain a definition for 'NetworkManagerSettingsFilePath'
+
+-----------------------------
+[Error] ❌ 広告ロード失敗: INVALID_ARGUMENT - Placement Rewarded_Android does not exist for gameId: 1486550
+UnityEngine.Debug:LogError (object)
+UnityAdsManager:OnUnityAdsFailedToLoad (string,UnityEngine.Advertisements.UnityAdsLoadError,string) (at Assets/Scripts/UnityAdsManager.cs:55)
+UnityEngine.Advertisements.Utilities.CoroutineExecutor:Update () (at ./Library/PackageCache/com.unity.ads/Runtime/Advertisement/Utilities/CoroutineExecutor.cs:17)
+
+-----------------------------
+[Error] ❌ 広告ロード失敗: INVALID_ARGUMENT - Placement Rewarded_Android does not exist for gameId: 1486550
+UnityEngine.Debug:LogError (object)
+UnityAdsManager:OnUnityAdsFailedToLoad (string,UnityEngine.Advertisements.UnityAdsLoadError,string) (at Assets/Scripts/UnityAdsManager.cs:55)
+UnityEngine.Advertisements.Utilities.CoroutineExecutor:Update () (at ./Library/PackageCache/com.unity.ads/Runtime/Advertisement/Utilities/CoroutineExecutor.cs:17)
+
+-----------------------------
+[Error] ❌ 広告ロード失敗: INVALID_ARGUMENT - Placement Rewarded_Android does not exist for gameId: 1486550
+UnityEngine.Debug:LogError (object)
+UnityAdsManager:OnUnityAdsFailedToLoad (string,UnityEngine.Advertisements.UnityAdsLoadError,string) (at Assets/Scripts/UnityAdsManager.cs:55)
+UnityEngine.Advertisements.Utilities.CoroutineExecutor:Update () (at ./Library/PackageCache/com.unity.ads/Runtime/Advertisement/Utilities/CoroutineExecutor.cs:17)
+
+-----------------------------
+[Error] ❌ 広告ロード失敗: INVALID_ARGUMENT - Placement Rewarded_Android does not exist for gameId: 1486550
+UnityEngine.Debug:LogError (object)
+UnityAdsManager:OnUnityAdsFailedToLoad (string,UnityEngine.Advertisements.UnityAdsLoadError,string) (at Assets/Scripts/UnityAdsManager.cs:55)
+UnityEngine.Advertisements.Utilities.CoroutineExecutor:Update () (at ./Library/PackageCache/com.unity.ads/Runtime/Advertisement/Utilities/CoroutineExecutor.cs:17)
+
+-----------------------------
+[Error] Assets\Scripts\UnityAdsManager.cs(63,13): error CS0103: The name 'GameManager' does not exist in the current context
+
+-----------------------------
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+UnityAdsManager.OnUnityAdsShowComplete (System.String placementId, UnityEngine.Advertisements.UnityAdsShowCompletionState showCompletionState) (at Assets/Scripts/UnityAdsManager.cs:67)
+UnityEngine.Advertisements.UnityAdsShowListenerMainDispatch+<>c__DisplayClass6_0.<OnUnityAdsShowComplete>b__0 () (at ./Library/PackageCache/com.unity.ads/Runtime/Advertisement/Dispatchers/UnityAdsShowListenerMainDispatch.cs:32)
+UnityEngine.Advertisements.Utilities.CoroutineExecutor.Update () (at ./Library/PackageCache/com.unity.ads/Runtime/Advertisement/Utilities/CoroutineExecutor.cs:17)
+
+-----------------------------
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+UnityAdsManager.CalculateReward () (at Assets/Scripts/UnityAdsManager.cs:61)
+UnityAdsManager.OnUnityAdsShowComplete (System.String placementId, UnityEngine.Advertisements.UnityAdsShowCompletionState showCompletionState) (at Assets/Scripts/UnityAdsManager.cs:72)
+UnityEngine.Advertisements.UnityAdsShowListenerMainDispatch+<>c__DisplayClass6_0.<OnUnityAdsShowComplete>b__0 () (at ./Library/PackageCache/com.unity.ads/Runtime/Advertisement/Dispatchers/UnityAdsShowListenerMainDispatch.cs:32)
+UnityEngine.Advertisements.Utilities.CoroutineExecutor.Update () (at ./Library/PackageCache/com.unity.ads/Runtime/Advertisement/Utilities/CoroutineExecutor.cs:17)
+
+-----------------------------
+[Error] Assets\Scripts\RewardPopupController1.cs(6,14): error CS0101: The namespace '<global namespace>' already contains a definition for 'RewardPopupController'
+
+-----------------------------
+[Error] Assets\Scripts\RewardPopupController1.cs(12,18): error CS0111: Type 'RewardPopupController' already defines a member called 'Awake' with the same parameter types
+
+-----------------------------
+[Error] Assets\Scripts\RewardPopupController1.cs(22,17): error CS0111: Type 'RewardPopupController' already defines a member called 'Show' with the same parameter types
+
+-----------------------------
+[Error] Assets\Scripts\RewardPopupController1.cs(30,17): error CS0111: Type 'RewardPopupController' already defines a member called 'Hide' with the same parameter types
+
+-----------------------------
+[Error] Assets\Scripts\UIController.cs(147,13): error CS7036: There is no argument given that corresponds to the required formal parameter 'targetGroupName' of 'UIController.SetGroupState(string, CanvasGroup, string)'
+
+-----------------------------
+[Error] Error while saving Prefab: 'Assets/Plugins/LeanTween/Examples/Prefabs/EndlessPiece.prefab'. You are trying to save a Prefab with a missing script. This is not allowed.
+Please change the script or remove it from the GameObject 'EndlessPiece'.
+
+-----------------------------
+[Error] Assets\Scripts\RewardPopupController.cs(28,9): error CS0103: The name 'LeanTween' does not exist in the current context
+
+-----------------------------
+[Error] Assets\Scripts\RewardPopupController.cs(36,9): error CS0103: The name 'LeanTween' does not exist in the current context
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween.cs(664,19): error CS0246: The type or namespace name 'LTDescr' could not be found (are you missing a using directive or an assembly reference?)
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween.cs(683,19): error CS0246: The type or namespace name 'LTDescr' could not be found (are you missing a using directive or an assembly reference?)
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween.cs(698,19): error CS0246: The type or namespace name 'LTDescr' could not be found (are you missing a using directive or an assembly reference?)
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween.cs(980,35): error CS0246: The type or namespace name 'LTDescr' could not be found (are you missing a using directive or an assembly reference?)
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween.cs(980,19): error CS0246: The type or namespace name 'LTDescr' could not be found (are you missing a using directive or an assembly reference?)
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween.cs(981,19): error CS0246: The type or namespace name 'LTDescr' could not be found (are you missing a using directive or an assembly reference?)
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween.cs(1027,89): error CS0246: The type or namespace name 'LTDescr' could not be found (are you missing a using directive or an assembly reference?)
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween.cs(1027,20): error CS0246: The type or namespace name 'LTDescr' could not be found (are you missing a using directive or an assembly reference?)
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween.cs(1055,19): error CS0246: The type or namespace name 'LTDescr' could not be found (are you missing a using directive or an assembly reference?)
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween.cs(1079,19): error CS0246: The type or namespace name 'LTSeq' could not be found (are you missing a using directive or an assembly reference?)
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween.cs(1123,19): error CS0246: The type or namespace name 'LTDescr' could not be found (are you missing a using directive or an assembly reference?)
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween.cs(1144,19): error CS0246: The type or namespace name 'LTDescr' could not be found (are you missing a using directive or an assembly reference?)
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween.cs(2124,19): error CS0246: The type or namespace name 'LTDescr' could not be found (are you missing a using directive or an assembly reference?)
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween.cs(1162,19): error CS0246: The type or namespace name 'LTDescr' could not be found (are you missing a using directive or an assembly reference?)
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween.cs(1165,19): error CS0246: The type or namespace name 'LTDescr' could not be found (are you missing a using directive or an assembly reference?)
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween.cs(1180,19): error CS0246: The type or namespace name 'LTDescr' could not be found (are you missing a using directive or an assembly reference?)
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween.cs(1200,19): error CS0246: The type or namespace name 'LTDescr' could not be found (are you missing a using directive or an assembly reference?)
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween.cs(1215,19): error CS0246: The type or namespace name 'LTDescr' could not be found (are you missing a using directive or an assembly reference?)
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween.cs(2138,19): error CS0246: The type or namespace name 'LTDescr' could not be found (are you missing a using directive or an assembly reference?)
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween.cs(1236,19): error CS0246: The type or namespace name 'LTDescr' could not be found (are you missing a using directive or an assembly reference?)
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween.cs(1239,19): error CS0246: The type or namespace name 'LTDescr' could not be found (are you missing a using directive or an assembly reference?)
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween.cs(1253,19): error CS0246: The type or namespace name 'LTDescr' could not be found (are you missing a using directive or an assembly reference?)
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween.cs(1257,19): error CS0246: The type or namespace name 'LTDescr' could not be found (are you missing a using directive or an assembly reference?)
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween.cs(1261,19): error CS0246: The type or namespace name 'LTDescr' could not be found (are you missing a using directive or an assembly reference?)
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween.cs(1266,19): error CS0246: The type or namespace name 'LTDescr' could not be found (are you missing a using directive or an assembly reference?)
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween.cs(1270,19): error CS0246: The type or namespace name 'LTDescr' could not be found (are you missing a using directive or an assembly reference?)
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween.cs(1289,19): error CS0246: The type or namespace name 'LTDescr' could not be found (are you missing a using directive or an assembly reference?)
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween.cs(1293,19): error CS0246: The type or namespace name 'LTDescr' could not be found (are you missing a using directive or an assembly reference?)
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween.cs(1312,19): error CS0246: The type or namespace name 'LTDescr' could not be found (are you missing a using directive or an assembly reference?)
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween.cs(1322,19): error CS0246: The type or namespace name 'LTDescr' could not be found (are you missing a using directive or an assembly reference?)
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween.cs(1329,19): error CS0246: The type or namespace name 'LTDescr' could not be found (are you missing a using directive or an assembly reference?)
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween.cs(1408,19): error CS0246: The type or namespace name 'LTDescr' could not be found (are you missing a using directive or an assembly reference?)
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween.cs(1528,19): error CS0246: The type or namespace name 'LTDescr' could not be found (are you missing a using directive or an assembly reference?)
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween.cs(1992,19): error CS0246: The type or namespace name 'LTDescr' could not be found (are you missing a using directive or an assembly reference?)
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween.cs(1350,19): error CS0246: The type or namespace name 'LTDescr' could not be found (are you missing a using directive or an assembly reference?)
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween.cs(1371,19): error CS0246: The type or namespace name 'LTDescr' could not be found (are you missing a using directive or an assembly reference?)
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween.cs(1392,19): error CS0246: The type or namespace name 'LTDescr' could not be found (are you missing a using directive or an assembly reference?)
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween.cs(1412,19): error CS0246: The type or namespace name 'LTDescr' could not be found (are you missing a using directive or an assembly reference?)
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween.cs(1425,19): error CS0246: The type or namespace name 'LTDescr' could not be found (are you missing a using directive or an assembly reference?)
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween.cs(2006,19): error CS0246: The type or namespace name 'LTDescr' could not be found (are you missing a using directive or an assembly reference?)
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween.cs(1438,19): error CS0246: The type or namespace name 'LTDescr' could not be found (are you missing a using directive or an assembly reference?)
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween.cs(2020,19): error CS0246: The type or namespace name 'LTDescr' could not be found (are you missing a using directive or an assembly reference?)
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween.cs(1451,19): error CS0246: The type or namespace name 'LTDescr' could not be found (are you missing a using directive or an assembly reference?)
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween.cs(2034,19): error CS0246: The type or namespace name 'LTDescr' could not be found (are you missing a using directive or an assembly reference?)
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween.cs(1464,19): error CS0246: The type or namespace name 'LTDescr' could not be found (are you missing a using directive or an assembly reference?)
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween.cs(1483,19): error CS0246: The type or namespace name 'LTDescr' could not be found (are you missing a using directive or an assembly reference?)
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween.cs(1505,19): error CS0246: The type or namespace name 'LTDescr' could not be found (are you missing a using directive or an assembly reference?)
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween.cs(1511,19): error CS0246: The type or namespace name 'LTDescr' could not be found (are you missing a using directive or an assembly reference?)
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween.cs(1493,19): error CS0246: The type or namespace name 'LTDescr' could not be found (are you missing a using directive or an assembly reference?)
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween.cs(1497,19): error CS0246: The type or namespace name 'LTDescr' could not be found (are you missing a using directive or an assembly reference?)
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween.cs(1501,19): error CS0246: The type or namespace name 'LTDescr' could not be found (are you missing a using directive or an assembly reference?)
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween.cs(1543,19): error CS0246: The type or namespace name 'LTDescr' could not be found (are you missing a using directive or an assembly reference?)
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween.cs(1561,19): error CS0246: The type or namespace name 'LTDescr' could not be found (are you missing a using directive or an assembly reference?)
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween.cs(2048,19): error CS0246: The type or namespace name 'LTDescr' could not be found (are you missing a using directive or an assembly reference?)
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween.cs(2052,19): error CS0246: The type or namespace name 'LTDescr' could not be found (are you missing a using directive or an assembly reference?)
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween.cs(1574,19): error CS0246: The type or namespace name 'LTDescr' could not be found (are you missing a using directive or an assembly reference?)
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween.cs(1587,19): error CS0246: The type or namespace name 'LTDescr' could not be found (are you missing a using directive or an assembly reference?)
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween.cs(1600,19): error CS0246: The type or namespace name 'LTDescr' could not be found (are you missing a using directive or an assembly reference?)
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween.cs(1613,19): error CS0246: The type or namespace name 'LTDescr' could not be found (are you missing a using directive or an assembly reference?)
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween.cs(1630,19): error CS0246: The type or namespace name 'LTDescr' could not be found (are you missing a using directive or an assembly reference?)
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween.cs(2067,19): error CS0246: The type or namespace name 'LTDescr' could not be found (are you missing a using directive or an assembly reference?)
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween.cs(1647,19): error CS0246: The type or namespace name 'LTDescr' could not be found (are you missing a using directive or an assembly reference?)
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween.cs(2082,19): error CS0246: The type or namespace name 'LTDescr' could not be found (are you missing a using directive or an assembly reference?)
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween.cs(1660,19): error CS0246: The type or namespace name 'LTDescr' could not be found (are you missing a using directive or an assembly reference?)
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween.cs(1687,19): error CS0246: The type or namespace name 'LTDescr' could not be found (are you missing a using directive or an assembly reference?)
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween.cs(2096,19): error CS0246: The type or namespace name 'LTDescr' could not be found (are you missing a using directive or an assembly reference?)
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween.cs(1700,19): error CS0246: The type or namespace name 'LTDescr' could not be found (are you missing a using directive or an assembly reference?)
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween.cs(1713,19): error CS0246: The type or namespace name 'LTDescr' could not be found (are you missing a using directive or an assembly reference?)
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween.cs(1726,19): error CS0246: The type or namespace name 'LTDescr' could not be found (are you missing a using directive or an assembly reference?)
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween.cs(1750,19): error CS0246: The type or namespace name 'LTDescr' could not be found (are you missing a using directive or an assembly reference?)
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween.cs(1753,19): error CS0246: The type or namespace name 'LTDescr' could not be found (are you missing a using directive or an assembly reference?)
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween.cs(1777,19): error CS0246: The type or namespace name 'LTDescr' could not be found (are you missing a using directive or an assembly reference?)
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween.cs(1801,19): error CS0246: The type or namespace name 'LTDescr' could not be found (are you missing a using directive or an assembly reference?)
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween.cs(1825,19): error CS0246: The type or namespace name 'LTDescr' could not be found (are you missing a using directive or an assembly reference?)
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween.cs(1860,19): error CS0246: The type or namespace name 'LTDescr' could not be found (are you missing a using directive or an assembly reference?)
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween.cs(1888,19): error CS0246: The type or namespace name 'LTDescr' could not be found (are you missing a using directive or an assembly reference?)
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween.cs(1916,19): error CS0246: The type or namespace name 'LTDescr' could not be found (are you missing a using directive or an assembly reference?)
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween.cs(1920,19): error CS0246: The type or namespace name 'LTDescr' could not be found (are you missing a using directive or an assembly reference?)
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween.cs(1936,19): error CS0246: The type or namespace name 'LTDescr' could not be found (are you missing a using directive or an assembly reference?)
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween.cs(1951,19): error CS0246: The type or namespace name 'LTDescr' could not be found (are you missing a using directive or an assembly reference?)
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween.cs(1966,19): error CS0246: The type or namespace name 'LTDescr' could not be found (are you missing a using directive or an assembly reference?)
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween.cs(1970,19): error CS0246: The type or namespace name 'LTDescr' could not be found (are you missing a using directive or an assembly reference?)
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween.cs(1975,19): error CS0246: The type or namespace name 'LTDescr' could not be found (are you missing a using directive or an assembly reference?)
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween.cs(2110,19): error CS0246: The type or namespace name 'LTDescr' could not be found (are you missing a using directive or an assembly reference?)
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween.cs(2146,39): error CS0246: The type or namespace name 'LTDescr' could not be found (are you missing a using directive or an assembly reference?)
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween.cs(2151,47): error CS0246: The type or namespace name 'LTDescr' could not be found (are you missing a using directive or an assembly reference?)
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween.cs(2498,19): error CS0246: The type or namespace name 'LTDescr' could not be found (are you missing a using directive or an assembly reference?)
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween.cs(2567,19): error CS0246: The type or namespace name 'LTDescr' could not be found (are you missing a using directive or an assembly reference?)
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween.cs(2637,19): error CS0246: The type or namespace name 'LTDescr' could not be found (are you missing a using directive or an assembly reference?)
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween.cs(2702,19): error CS0246: The type or namespace name 'LTDescr' could not be found (are you missing a using directive or an assembly reference?)
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween.cs(250,20): error CS0246: The type or namespace name 'LTSeq' could not be found (are you missing a using directive or an assembly reference?)
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween.cs(252,20): error CS0246: The type or namespace name 'LTDescr' could not be found (are you missing a using directive or an assembly reference?)
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween.cs(255,20): error CS0246: The type or namespace name 'LTDescr' could not be found (are you missing a using directive or an assembly reference?)
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween.cs(1025,19): error CS0246: The type or namespace name 'LTDescr' could not be found (are you missing a using directive or an assembly reference?)
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(244,14): error CS0101: The namespace '<global namespace>' already contains a definition for 'LeanTween'
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(2891,14): error CS0101: The namespace '<global namespace>' already contains a definition for 'LTUtility'
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(2907,14): error CS0101: The namespace '<global namespace>' already contains a definition for 'LTBezier'
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(2981,14): error CS0101: The namespace '<global namespace>' already contains a definition for 'LTBezierPath'
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(3192,14): error CS0101: The namespace '<global namespace>' already contains a definition for 'LTSpline'
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(3644,14): error CS0101: The namespace '<global namespace>' already contains a definition for 'LTRect'
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(3866,14): error CS0101: The namespace '<global namespace>' already contains a definition for 'LTEvent'
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(3876,14): error CS0101: The namespace '<global namespace>' already contains a definition for 'LTGUI'
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(148,13): error CS0101: The namespace '<global namespace>' already contains a definition for 'TweenAction'
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(203,13): error CS0101: The namespace '<global namespace>' already contains a definition for 'LeanTweenType'
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(209,13): error CS0101: The namespace '<global namespace>' already contains a definition for 'LeanProp'
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(4114,38): error CS0101: The namespace 'DentedPixel' already contains a definition for 'LeanDummy'
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(2893,29): error CS0111: Type 'LTUtility' already defines a member called 'reverse' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(3870,12): error CS0111: Type 'LTEvent' already defines a member called 'LTEvent' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(3191,2): error CS0579: Duplicate 'System.Serializable' attribute
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(3643,2): error CS0579: Duplicate 'System.Serializable' attribute
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(2917,12): error CS0111: Type 'LTBezier' already defines a member called 'LTBezier' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(2939,19): error CS0111: Type 'LTBezier' already defines a member called 'map' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(2960,21): error CS0111: Type 'LTBezier' already defines a member called 'bezierPoint' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(2964,20): error CS0111: Type 'LTBezier' already defines a member called 'point' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(2991,12): error CS0111: Type 'LTBezierPath' already defines a member called 'LTBezierPath' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(2992,12): error CS0111: Type 'LTBezierPath' already defines a member called 'LTBezierPath' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(2996,17): error CS0111: Type 'LTBezierPath' already defines a member called 'setPoints' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(3038,20): error CS0111: Type 'LTBezierPath' already defines a member called 'point' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(3048,17): error CS0111: Type 'LTBezierPath' already defines a member called 'place2d' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(3058,17): error CS0111: Type 'LTBezierPath' already defines a member called 'placeLocal2d' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(3077,17): error CS0111: Type 'LTBezierPath' already defines a member called 'place' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(3092,17): error CS0111: Type 'LTBezierPath' already defines a member called 'place' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(3109,17): error CS0111: Type 'LTBezierPath' already defines a member called 'placeLocal' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(3123,17): error CS0111: Type 'LTBezierPath' already defines a member called 'placeLocal' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(3134,17): error CS0111: Type 'LTBezierPath' already defines a member called 'gizmoDraw' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(3159,18): error CS0111: Type 'LTBezierPath' already defines a member called 'ratioAtPoint' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(3896,24): error CS0111: Type 'LTGUI' already defines a member called 'init' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(3903,24): error CS0111: Type 'LTGUI' already defines a member called 'initRectCheck' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(3914,24): error CS0111: Type 'LTGUI' already defines a member called 'reset' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(3927,24): error CS0111: Type 'LTGUI' already defines a member called 'update' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(3968,24): error CS0111: Type 'LTGUI' already defines a member called 'checkOnScreen' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(3977,24): error CS0111: Type 'LTGUI' already defines a member called 'destroy' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(3984,24): error CS0111: Type 'LTGUI' already defines a member called 'destroyAll' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(3991,26): error CS0111: Type 'LTGUI' already defines a member called 'label' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(3995,26): error CS0111: Type 'LTGUI' already defines a member called 'label' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(4001,26): error CS0111: Type 'LTGUI' already defines a member called 'texture' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(4005,26): error CS0111: Type 'LTGUI' already defines a member called 'texture' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(4011,26): error CS0111: Type 'LTGUI' already defines a member called 'element' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(4050,24): error CS0111: Type 'LTGUI' already defines a member called 'hasNoOverlap' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(4089,24): error CS0111: Type 'LTGUI' already defines a member called 'pressedWithinRect' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(4097,24): error CS0111: Type 'LTGUI' already defines a member called 'checkWithinRect' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(4102,27): error CS0111: Type 'LTGUI' already defines a member called 'firstTouch' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(3212,12): error CS0111: Type 'LTSpline' already defines a member called 'LTSpline' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(3216,12): error CS0111: Type 'LTSpline' already defines a member called 'LTSpline' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(3221,18): error CS0111: Type 'LTSpline' already defines a member called 'init' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(3290,20): error CS0111: Type 'LTSpline' already defines a member called 'map' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(3313,20): error CS0111: Type 'LTSpline' already defines a member called 'interp' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(3342,18): error CS0111: Type 'LTSpline' already defines a member called 'ratioAtPoint' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(3366,20): error CS0111: Type 'LTSpline' already defines a member called 'point' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(3371,17): error CS0111: Type 'LTSpline' already defines a member called 'place2d' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(3381,17): error CS0111: Type 'LTSpline' already defines a member called 'placeLocal2d' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(3407,17): error CS0111: Type 'LTSpline' already defines a member called 'place' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(3421,17): error CS0111: Type 'LTSpline' already defines a member called 'place' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(3439,17): error CS0111: Type 'LTSpline' already defines a member called 'placeLocal' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(3453,17): error CS0111: Type 'LTSpline' already defines a member called 'placeLocal' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(3460,17): error CS0111: Type 'LTSpline' already defines a member called 'gizmoDraw' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(3475,17): error CS0111: Type 'LTSpline' already defines a member called 'drawGizmo' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(3493,24): error CS0111: Type 'LTSpline' already defines a member called 'drawGizmo' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(3516,24): error CS0111: Type 'LTSpline' already defines a member called 'drawLine' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(3539,17): error CS0111: Type 'LTSpline' already defines a member called 'drawLinesGLLines' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(3589,22): error CS0111: Type 'LTSpline' already defines a member called 'generateVectors' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(3679,12): error CS0111: Type 'LTRect' already defines a member called 'LTRect' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(3685,12): error CS0111: Type 'LTRect' already defines a member called 'LTRect' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(3690,12): error CS0111: Type 'LTRect' already defines a member called 'LTRect' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(3697,12): error CS0111: Type 'LTRect' already defines a member called 'LTRect' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(3704,12): error CS0111: Type 'LTRect' already defines a member called 'LTRect' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(3735,17): error CS0111: Type 'LTRect' already defines a member called 'setId' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(3740,17): error CS0111: Type 'LTRect' already defines a member called 'reset' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(3749,17): error CS0111: Type 'LTRect' already defines a member called 'resetForRotation' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(3812,19): error CS0111: Type 'LTRect' already defines a member called 'setStyle' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(3817,19): error CS0111: Type 'LTRect' already defines a member called 'setFontScaleToFit' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(3822,19): error CS0111: Type 'LTRect' already defines a member called 'setColor' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(3828,19): error CS0111: Type 'LTRect' already defines a member called 'setAlpha' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(3833,19): error CS0111: Type 'LTRect' already defines a member called 'setLabel' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(3838,19): error CS0111: Type 'LTRect' already defines a member called 'setUseSimpleScale' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(3844,19): error CS0111: Type 'LTRect' already defines a member called 'setUseSimpleScale' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(3850,19): error CS0111: Type 'LTRect' already defines a member called 'setSizeByHeight' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(3855,28): error CS0111: Type 'LTRect' already defines a member called 'ToString' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(274,24): error CS0111: Type 'LeanTween' already defines a member called 'init' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(317,24): error CS0111: Type 'LeanTween' already defines a member called 'init' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(321,24): error CS0111: Type 'LeanTween' already defines a member called 'init' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(357,24): error CS0111: Type 'LeanTween' already defines a member called 'reset' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(368,17): error CS0111: Type 'LeanTween' already defines a member called 'Update' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(373,25): error CS0111: Type 'LeanTween' already defines a member called 'onLevelWasLoaded54' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(378,25): error CS0111: Type 'LeanTween' already defines a member called 'internalOnLevelWasLoaded' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(385,24): error CS0111: Type 'LeanTween' already defines a member called 'update' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(467,24): error CS0111: Type 'LeanTween' already defines a member called 'removeTween' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(474,24): error CS0111: Type 'LeanTween' already defines a member called 'removeTween' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(504,29): error CS0111: Type 'LeanTween' already defines a member called 'add' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(513,25): error CS0111: Type 'LeanTween' already defines a member called 'closestRot' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(537,24): error CS0111: Type 'LeanTween' already defines a member called 'cancelAll' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(540,24): error CS0111: Type 'LeanTween' already defines a member called 'cancelAll' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(561,24): error CS0111: Type 'LeanTween' already defines a member called 'cancel' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(564,24): error CS0111: Type 'LeanTween' already defines a member called 'cancel' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(581,24): error CS0111: Type 'LeanTween' already defines a member called 'cancel' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(585,24): error CS0111: Type 'LeanTween' already defines a member called 'cancel' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(599,24): error CS0111: Type 'LeanTween' already defines a member called 'cancel' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(619,24): error CS0111: Type 'LeanTween' already defines a member called 'cancel' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(622,24): error CS0111: Type 'LeanTween' already defines a member called 'cancel' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(664,27): error CS0111: Type 'LeanTween' already defines a member called 'descr' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(683,27): error CS0111: Type 'LeanTween' already defines a member called 'description' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(698,29): error CS0111: Type 'LeanTween' already defines a member called 'descriptions' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(711,24): error CS0111: Type 'LeanTween' already defines a member called 'pause' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(726,24): error CS0111: Type 'LeanTween' already defines a member called 'pause' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(740,24): error CS0111: Type 'LeanTween' already defines a member called 'pause' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(754,24): error CS0111: Type 'LeanTween' already defines a member called 'pauseAll' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(766,24): error CS0111: Type 'LeanTween' already defines a member called 'resumeAll' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(774,24): error CS0111: Type 'LeanTween' already defines a member called 'resume' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(789,24): error CS0111: Type 'LeanTween' already defines a member called 'resume' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(803,24): error CS0111: Type 'LeanTween' already defines a member called 'resume' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(817,24): error CS0111: Type 'LeanTween' already defines a member called 'isPaused' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(837,24): error CS0111: Type 'LeanTween' already defines a member called 'isPaused' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(853,24): error CS0111: Type 'LeanTween' already defines a member called 'isPaused' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(872,24): error CS0111: Type 'LeanTween' already defines a member called 'isTweening' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(888,24): error CS0111: Type 'LeanTween' already defines a member called 'isTweening' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(902,24): error CS0111: Type 'LeanTween' already defines a member called 'isTweening' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(913,24): error CS0111: Type 'LeanTween' already defines a member called 'isTweening' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(921,24): error CS0111: Type 'LeanTween' already defines a member called 'drawBezierPath' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(975,26): error CS0111: Type 'LeanTween' already defines a member called 'logError' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(980,27): error CS0111: Type 'LeanTween' already defines a member called 'options' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(981,27): error CS0111: Type 'LeanTween' already defines a member called 'options' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(1027,28): error CS0111: Type 'LeanTween' already defines a member called 'pushNewTween' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(1055,27): error CS0111: Type 'LeanTween' already defines a member called 'play' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(1079,25): error CS0111: Type 'LeanTween' already defines a member called 'sequence' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(1123,27): error CS0111: Type 'LeanTween' already defines a member called 'alpha' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(1144,27): error CS0111: Type 'LeanTween' already defines a member called 'alpha' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(2124,27): error CS0111: Type 'LeanTween' already defines a member called 'alpha' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(1162,27): error CS0111: Type 'LeanTween' already defines a member called 'textAlpha' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(1165,27): error CS0111: Type 'LeanTween' already defines a member called 'alphaText' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(1180,27): error CS0111: Type 'LeanTween' already defines a member called 'alphaCanvas' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(1200,27): error CS0111: Type 'LeanTween' already defines a member called 'alphaVertex' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(1215,27): error CS0111: Type 'LeanTween' already defines a member called 'color' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(2138,27): error CS0111: Type 'LeanTween' already defines a member called 'color' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(1236,27): error CS0111: Type 'LeanTween' already defines a member called 'textColor' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(1239,27): error CS0111: Type 'LeanTween' already defines a member called 'colorText' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(1253,27): error CS0111: Type 'LeanTween' already defines a member called 'delayedCall' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(1257,27): error CS0111: Type 'LeanTween' already defines a member called 'delayedCall' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(1261,27): error CS0111: Type 'LeanTween' already defines a member called 'delayedCall' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(1266,27): error CS0111: Type 'LeanTween' already defines a member called 'delayedCall' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(1270,27): error CS0111: Type 'LeanTween' already defines a member called 'destroyAfter' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(1289,27): error CS0111: Type 'LeanTween' already defines a member called 'move' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(1293,27): error CS0111: Type 'LeanTween' already defines a member called 'move' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(1312,27): error CS0111: Type 'LeanTween' already defines a member called 'move' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(1322,27): error CS0111: Type 'LeanTween' already defines a member called 'move' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(1329,27): error CS0111: Type 'LeanTween' already defines a member called 'move' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(1408,27): error CS0111: Type 'LeanTween' already defines a member called 'move' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(1528,27): error CS0111: Type 'LeanTween' already defines a member called 'move' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(1992,27): error CS0111: Type 'LeanTween' already defines a member called 'move' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(1350,27): error CS0111: Type 'LeanTween' already defines a member called 'moveSpline' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(1371,27): error CS0111: Type 'LeanTween' already defines a member called 'moveSpline' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(1392,27): error CS0111: Type 'LeanTween' already defines a member called 'moveSplineLocal' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(1412,27): error CS0111: Type 'LeanTween' already defines a member called 'moveMargin' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(1425,27): error CS0111: Type 'LeanTween' already defines a member called 'moveX' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(2006,27): error CS0111: Type 'LeanTween' already defines a member called 'moveX' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(1438,27): error CS0111: Type 'LeanTween' already defines a member called 'moveY' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(2020,27): error CS0111: Type 'LeanTween' already defines a member called 'moveY' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(1451,27): error CS0111: Type 'LeanTween' already defines a member called 'moveZ' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(2034,27): error CS0111: Type 'LeanTween' already defines a member called 'moveZ' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(1464,27): error CS0111: Type 'LeanTween' already defines a member called 'moveLocal' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(1483,27): error CS0111: Type 'LeanTween' already defines a member called 'moveLocal' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(1505,27): error CS0111: Type 'LeanTween' already defines a member called 'moveLocal' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(1511,27): error CS0111: Type 'LeanTween' already defines a member called 'moveLocal' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(1493,27): error CS0111: Type 'LeanTween' already defines a member called 'moveLocalX' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(1497,27): error CS0111: Type 'LeanTween' already defines a member called 'moveLocalY' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(1501,27): error CS0111: Type 'LeanTween' already defines a member called 'moveLocalZ' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(1543,27): error CS0111: Type 'LeanTween' already defines a member called 'rotate' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(1561,27): error CS0111: Type 'LeanTween' already defines a member called 'rotate' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(2048,27): error CS0111: Type 'LeanTween' already defines a member called 'rotate' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(2052,27): error CS0111: Type 'LeanTween' already defines a member called 'rotate' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(1574,27): error CS0111: Type 'LeanTween' already defines a member called 'rotateLocal' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(1587,27): error CS0111: Type 'LeanTween' already defines a member called 'rotateX' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(1600,27): error CS0111: Type 'LeanTween' already defines a member called 'rotateY' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(1613,27): error CS0111: Type 'LeanTween' already defines a member called 'rotateZ' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(1630,27): error CS0111: Type 'LeanTween' already defines a member called 'rotateAround' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(2067,27): error CS0111: Type 'LeanTween' already defines a member called 'rotateAround' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(1647,27): error CS0111: Type 'LeanTween' already defines a member called 'rotateAroundLocal' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(2082,27): error CS0111: Type 'LeanTween' already defines a member called 'rotateAroundLocal' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(1660,27): error CS0111: Type 'LeanTween' already defines a member called 'scale' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(1687,27): error CS0111: Type 'LeanTween' already defines a member called 'scale' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(2096,27): error CS0111: Type 'LeanTween' already defines a member called 'scale' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(1700,27): error CS0111: Type 'LeanTween' already defines a member called 'scaleX' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(1713,27): error CS0111: Type 'LeanTween' already defines a member called 'scaleY' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(1726,27): error CS0111: Type 'LeanTween' already defines a member called 'scaleZ' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(1750,27): error CS0111: Type 'LeanTween' already defines a member called 'value' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(1753,27): error CS0111: Type 'LeanTween' already defines a member called 'value' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(1777,27): error CS0111: Type 'LeanTween' already defines a member called 'value' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(1801,27): error CS0111: Type 'LeanTween' already defines a member called 'value' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(1825,27): error CS0111: Type 'LeanTween' already defines a member called 'value' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(1860,27): error CS0111: Type 'LeanTween' already defines a member called 'value' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(1888,27): error CS0111: Type 'LeanTween' already defines a member called 'value' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(1916,27): error CS0111: Type 'LeanTween' already defines a member called 'value' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(1920,27): error CS0111: Type 'LeanTween' already defines a member called 'value' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(1936,27): error CS0111: Type 'LeanTween' already defines a member called 'value' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(1951,27): error CS0111: Type 'LeanTween' already defines a member called 'value' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(1966,27): error CS0111: Type 'LeanTween' already defines a member called 'value' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(1970,27): error CS0111: Type 'LeanTween' already defines a member called 'delayedSound' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(1975,27): error CS0111: Type 'LeanTween' already defines a member called 'delayedSound' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(2110,27): error CS0111: Type 'LeanTween' already defines a member called 'size' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(2146,25): error CS0111: Type 'LeanTween' already defines a member called 'tweenOnCurve' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(2151,27): error CS0111: Type 'LeanTween' already defines a member called 'tweenOnCurveVector' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(2157,25): error CS0111: Type 'LeanTween' already defines a member called 'easeOutQuadOpt' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(2161,25): error CS0111: Type 'LeanTween' already defines a member called 'easeInQuadOpt' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(2165,25): error CS0111: Type 'LeanTween' already defines a member called 'easeInOutQuadOpt' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(2172,27): error CS0111: Type 'LeanTween' already defines a member called 'easeInOutQuadOpt' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(2179,25): error CS0111: Type 'LeanTween' already defines a member called 'linear' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(2183,25): error CS0111: Type 'LeanTween' already defines a member called 'clerp' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(2199,25): error CS0111: Type 'LeanTween' already defines a member called 'spring' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(2205,25): error CS0111: Type 'LeanTween' already defines a member called 'easeInQuad' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(2210,25): error CS0111: Type 'LeanTween' already defines a member called 'easeOutQuad' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(2215,25): error CS0111: Type 'LeanTween' already defines a member called 'easeInOutQuad' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(2224,25): error CS0111: Type 'LeanTween' already defines a member called 'easeInOutQuadOpt2' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(2231,25): error CS0111: Type 'LeanTween' already defines a member called 'easeInCubic' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(2236,25): error CS0111: Type 'LeanTween' already defines a member called 'easeOutCubic' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(2242,25): error CS0111: Type 'LeanTween' already defines a member called 'easeInOutCubic' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(2250,25): error CS0111: Type 'LeanTween' already defines a member called 'easeInQuart' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(2255,25): error CS0111: Type 'LeanTween' already defines a member called 'easeOutQuart' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(2261,25): error CS0111: Type 'LeanTween' already defines a member called 'easeInOutQuart' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(2269,25): error CS0111: Type 'LeanTween' already defines a member called 'easeInQuint' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(2274,25): error CS0111: Type 'LeanTween' already defines a member called 'easeOutQuint' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(2280,25): error CS0111: Type 'LeanTween' already defines a member called 'easeInOutQuint' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(2288,25): error CS0111: Type 'LeanTween' already defines a member called 'easeInSine' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(2293,25): error CS0111: Type 'LeanTween' already defines a member called 'easeOutSine' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(2298,25): error CS0111: Type 'LeanTween' already defines a member called 'easeInOutSine' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(2303,25): error CS0111: Type 'LeanTween' already defines a member called 'easeInExpo' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(2308,25): error CS0111: Type 'LeanTween' already defines a member called 'easeOutExpo' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(2313,25): error CS0111: Type 'LeanTween' already defines a member called 'easeInOutExpo' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(2321,25): error CS0111: Type 'LeanTween' already defines a member called 'easeInCirc' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(2326,25): error CS0111: Type 'LeanTween' already defines a member called 'easeOutCirc' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(2332,25): error CS0111: Type 'LeanTween' already defines a member called 'easeInOutCirc' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(2340,25): error CS0111: Type 'LeanTween' already defines a member called 'easeInBounce' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(2346,25): error CS0111: Type 'LeanTween' already defines a member called 'easeOutBounce' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(2363,25): error CS0111: Type 'LeanTween' already defines a member called 'easeInOutBounce' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(2370,25): error CS0111: Type 'LeanTween' already defines a member called 'easeInBack' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(2377,25): error CS0111: Type 'LeanTween' already defines a member called 'easeOutBack' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(2384,25): error CS0111: Type 'LeanTween' already defines a member called 'easeInOutBack' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(2397,25): error CS0111: Type 'LeanTween' already defines a member called 'easeInElastic' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(2423,25): error CS0111: Type 'LeanTween' already defines a member called 'easeOutElastic' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(2448,25): error CS0111: Type 'LeanTween' already defines a member called 'easeInOutElastic' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(2498,27): error CS0111: Type 'LeanTween' already defines a member called 'followDamp' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(2567,27): error CS0111: Type 'LeanTween' already defines a member called 'followSpring' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(2637,27): error CS0111: Type 'LeanTween' already defines a member called 'followBounceOut' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(2702,27): error CS0111: Type 'LeanTween' already defines a member called 'followLinear' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(2764,24): error CS0111: Type 'LeanTween' already defines a member called 'addListener' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(2780,24): error CS0111: Type 'LeanTween' already defines a member called 'addListener' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(2813,24): error CS0111: Type 'LeanTween' already defines a member called 'removeListener' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(2817,24): error CS0111: Type 'LeanTween' already defines a member called 'removeListener' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(2836,24): error CS0111: Type 'LeanTween' already defines a member called 'removeListener' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(2859,24): error CS0111: Type 'LeanTween' already defines a member called 'dispatchEvent' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(2875,24): error CS0111: Type 'LeanTween' already defines a member called 'dispatchEvent' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(244,14): error CS0101: The namespace '<global namespace>' already contains a definition for 'LeanTween'
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(2891,14): error CS0101: The namespace '<global namespace>' already contains a definition for 'LTUtility'
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(2907,14): error CS0101: The namespace '<global namespace>' already contains a definition for 'LTBezier'
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(2981,14): error CS0101: The namespace '<global namespace>' already contains a definition for 'LTBezierPath'
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(3192,14): error CS0101: The namespace '<global namespace>' already contains a definition for 'LTSpline'
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(3644,14): error CS0101: The namespace '<global namespace>' already contains a definition for 'LTRect'
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(3866,14): error CS0101: The namespace '<global namespace>' already contains a definition for 'LTEvent'
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(3876,14): error CS0101: The namespace '<global namespace>' already contains a definition for 'LTGUI'
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(148,13): error CS0101: The namespace '<global namespace>' already contains a definition for 'TweenAction'
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(203,13): error CS0101: The namespace '<global namespace>' already contains a definition for 'LeanTweenType'
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(209,13): error CS0101: The namespace '<global namespace>' already contains a definition for 'LeanProp'
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(2893,29): error CS0111: Type 'LTUtility' already defines a member called 'reverse' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(3870,12): error CS0111: Type 'LTEvent' already defines a member called 'LTEvent' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(4114,38): error CS0101: The namespace 'DentedPixel' already contains a definition for 'LeanDummy'
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(2917,12): error CS0111: Type 'LTBezier' already defines a member called 'LTBezier' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(2939,19): error CS0111: Type 'LTBezier' already defines a member called 'map' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(2960,21): error CS0111: Type 'LTBezier' already defines a member called 'bezierPoint' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(2964,20): error CS0111: Type 'LTBezier' already defines a member called 'point' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(3643,2): error CS0579: Duplicate 'System.Serializable' attribute
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(3191,2): error CS0579: Duplicate 'System.Serializable' attribute
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(2991,12): error CS0111: Type 'LTBezierPath' already defines a member called 'LTBezierPath' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(2992,12): error CS0111: Type 'LTBezierPath' already defines a member called 'LTBezierPath' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(2996,17): error CS0111: Type 'LTBezierPath' already defines a member called 'setPoints' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(3038,20): error CS0111: Type 'LTBezierPath' already defines a member called 'point' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(3048,17): error CS0111: Type 'LTBezierPath' already defines a member called 'place2d' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(3058,17): error CS0111: Type 'LTBezierPath' already defines a member called 'placeLocal2d' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(3077,17): error CS0111: Type 'LTBezierPath' already defines a member called 'place' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(3092,17): error CS0111: Type 'LTBezierPath' already defines a member called 'place' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(3109,17): error CS0111: Type 'LTBezierPath' already defines a member called 'placeLocal' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(3123,17): error CS0111: Type 'LTBezierPath' already defines a member called 'placeLocal' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(3134,17): error CS0111: Type 'LTBezierPath' already defines a member called 'gizmoDraw' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(3159,18): error CS0111: Type 'LTBezierPath' already defines a member called 'ratioAtPoint' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(3679,12): error CS0111: Type 'LTRect' already defines a member called 'LTRect' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(3685,12): error CS0111: Type 'LTRect' already defines a member called 'LTRect' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(3690,12): error CS0111: Type 'LTRect' already defines a member called 'LTRect' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(3697,12): error CS0111: Type 'LTRect' already defines a member called 'LTRect' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(3704,12): error CS0111: Type 'LTRect' already defines a member called 'LTRect' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(3735,17): error CS0111: Type 'LTRect' already defines a member called 'setId' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(3740,17): error CS0111: Type 'LTRect' already defines a member called 'reset' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(3749,17): error CS0111: Type 'LTRect' already defines a member called 'resetForRotation' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(3812,19): error CS0111: Type 'LTRect' already defines a member called 'setStyle' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(3817,19): error CS0111: Type 'LTRect' already defines a member called 'setFontScaleToFit' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(3822,19): error CS0111: Type 'LTRect' already defines a member called 'setColor' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(3828,19): error CS0111: Type 'LTRect' already defines a member called 'setAlpha' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(3833,19): error CS0111: Type 'LTRect' already defines a member called 'setLabel' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(3838,19): error CS0111: Type 'LTRect' already defines a member called 'setUseSimpleScale' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(3844,19): error CS0111: Type 'LTRect' already defines a member called 'setUseSimpleScale' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(3850,19): error CS0111: Type 'LTRect' already defines a member called 'setSizeByHeight' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(3855,28): error CS0111: Type 'LTRect' already defines a member called 'ToString' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(3896,24): error CS0111: Type 'LTGUI' already defines a member called 'init' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(3903,24): error CS0111: Type 'LTGUI' already defines a member called 'initRectCheck' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(3914,24): error CS0111: Type 'LTGUI' already defines a member called 'reset' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(3927,24): error CS0111: Type 'LTGUI' already defines a member called 'update' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(3968,24): error CS0111: Type 'LTGUI' already defines a member called 'checkOnScreen' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(3977,24): error CS0111: Type 'LTGUI' already defines a member called 'destroy' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(3984,24): error CS0111: Type 'LTGUI' already defines a member called 'destroyAll' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(3991,26): error CS0111: Type 'LTGUI' already defines a member called 'label' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(3995,26): error CS0111: Type 'LTGUI' already defines a member called 'label' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(4001,26): error CS0111: Type 'LTGUI' already defines a member called 'texture' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(4005,26): error CS0111: Type 'LTGUI' already defines a member called 'texture' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(4011,26): error CS0111: Type 'LTGUI' already defines a member called 'element' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(4050,24): error CS0111: Type 'LTGUI' already defines a member called 'hasNoOverlap' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(4089,24): error CS0111: Type 'LTGUI' already defines a member called 'pressedWithinRect' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(4097,24): error CS0111: Type 'LTGUI' already defines a member called 'checkWithinRect' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(4102,27): error CS0111: Type 'LTGUI' already defines a member called 'firstTouch' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(3212,12): error CS0111: Type 'LTSpline' already defines a member called 'LTSpline' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(3216,12): error CS0111: Type 'LTSpline' already defines a member called 'LTSpline' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(3221,18): error CS0111: Type 'LTSpline' already defines a member called 'init' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(3290,20): error CS0111: Type 'LTSpline' already defines a member called 'map' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(3313,20): error CS0111: Type 'LTSpline' already defines a member called 'interp' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(3342,18): error CS0111: Type 'LTSpline' already defines a member called 'ratioAtPoint' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(3366,20): error CS0111: Type 'LTSpline' already defines a member called 'point' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(3371,17): error CS0111: Type 'LTSpline' already defines a member called 'place2d' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(3381,17): error CS0111: Type 'LTSpline' already defines a member called 'placeLocal2d' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(3407,17): error CS0111: Type 'LTSpline' already defines a member called 'place' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(3421,17): error CS0111: Type 'LTSpline' already defines a member called 'place' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(3439,17): error CS0111: Type 'LTSpline' already defines a member called 'placeLocal' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(3453,17): error CS0111: Type 'LTSpline' already defines a member called 'placeLocal' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(3460,17): error CS0111: Type 'LTSpline' already defines a member called 'gizmoDraw' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(3475,17): error CS0111: Type 'LTSpline' already defines a member called 'drawGizmo' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(3493,24): error CS0111: Type 'LTSpline' already defines a member called 'drawGizmo' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(3516,24): error CS0111: Type 'LTSpline' already defines a member called 'drawLine' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(3539,17): error CS0111: Type 'LTSpline' already defines a member called 'drawLinesGLLines' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(3589,22): error CS0111: Type 'LTSpline' already defines a member called 'generateVectors' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(274,24): error CS0111: Type 'LeanTween' already defines a member called 'init' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(317,24): error CS0111: Type 'LeanTween' already defines a member called 'init' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(321,24): error CS0111: Type 'LeanTween' already defines a member called 'init' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(357,24): error CS0111: Type 'LeanTween' already defines a member called 'reset' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(368,17): error CS0111: Type 'LeanTween' already defines a member called 'Update' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(373,25): error CS0111: Type 'LeanTween' already defines a member called 'onLevelWasLoaded54' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(378,25): error CS0111: Type 'LeanTween' already defines a member called 'internalOnLevelWasLoaded' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(385,24): error CS0111: Type 'LeanTween' already defines a member called 'update' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(467,24): error CS0111: Type 'LeanTween' already defines a member called 'removeTween' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(474,24): error CS0111: Type 'LeanTween' already defines a member called 'removeTween' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(504,29): error CS0111: Type 'LeanTween' already defines a member called 'add' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(513,25): error CS0111: Type 'LeanTween' already defines a member called 'closestRot' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(537,24): error CS0111: Type 'LeanTween' already defines a member called 'cancelAll' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(540,24): error CS0111: Type 'LeanTween' already defines a member called 'cancelAll' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(561,24): error CS0111: Type 'LeanTween' already defines a member called 'cancel' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(564,24): error CS0111: Type 'LeanTween' already defines a member called 'cancel' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(581,24): error CS0111: Type 'LeanTween' already defines a member called 'cancel' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(585,24): error CS0111: Type 'LeanTween' already defines a member called 'cancel' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(599,24): error CS0111: Type 'LeanTween' already defines a member called 'cancel' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(619,24): error CS0111: Type 'LeanTween' already defines a member called 'cancel' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(622,24): error CS0111: Type 'LeanTween' already defines a member called 'cancel' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(664,27): error CS0111: Type 'LeanTween' already defines a member called 'descr' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(683,27): error CS0111: Type 'LeanTween' already defines a member called 'description' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(698,29): error CS0111: Type 'LeanTween' already defines a member called 'descriptions' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(711,24): error CS0111: Type 'LeanTween' already defines a member called 'pause' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(726,24): error CS0111: Type 'LeanTween' already defines a member called 'pause' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(740,24): error CS0111: Type 'LeanTween' already defines a member called 'pause' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(754,24): error CS0111: Type 'LeanTween' already defines a member called 'pauseAll' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(766,24): error CS0111: Type 'LeanTween' already defines a member called 'resumeAll' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(774,24): error CS0111: Type 'LeanTween' already defines a member called 'resume' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(789,24): error CS0111: Type 'LeanTween' already defines a member called 'resume' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(803,24): error CS0111: Type 'LeanTween' already defines a member called 'resume' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(817,24): error CS0111: Type 'LeanTween' already defines a member called 'isPaused' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(837,24): error CS0111: Type 'LeanTween' already defines a member called 'isPaused' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(853,24): error CS0111: Type 'LeanTween' already defines a member called 'isPaused' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(872,24): error CS0111: Type 'LeanTween' already defines a member called 'isTweening' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(888,24): error CS0111: Type 'LeanTween' already defines a member called 'isTweening' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(902,24): error CS0111: Type 'LeanTween' already defines a member called 'isTweening' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(913,24): error CS0111: Type 'LeanTween' already defines a member called 'isTweening' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(921,24): error CS0111: Type 'LeanTween' already defines a member called 'drawBezierPath' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(975,26): error CS0111: Type 'LeanTween' already defines a member called 'logError' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(980,27): error CS0111: Type 'LeanTween' already defines a member called 'options' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(981,27): error CS0111: Type 'LeanTween' already defines a member called 'options' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(1027,28): error CS0111: Type 'LeanTween' already defines a member called 'pushNewTween' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(1055,27): error CS0111: Type 'LeanTween' already defines a member called 'play' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(1079,25): error CS0111: Type 'LeanTween' already defines a member called 'sequence' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(1123,27): error CS0111: Type 'LeanTween' already defines a member called 'alpha' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(1144,27): error CS0111: Type 'LeanTween' already defines a member called 'alpha' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(2124,27): error CS0111: Type 'LeanTween' already defines a member called 'alpha' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(1162,27): error CS0111: Type 'LeanTween' already defines a member called 'textAlpha' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(1165,27): error CS0111: Type 'LeanTween' already defines a member called 'alphaText' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(1180,27): error CS0111: Type 'LeanTween' already defines a member called 'alphaCanvas' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(1200,27): error CS0111: Type 'LeanTween' already defines a member called 'alphaVertex' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(1215,27): error CS0111: Type 'LeanTween' already defines a member called 'color' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(2138,27): error CS0111: Type 'LeanTween' already defines a member called 'color' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(1236,27): error CS0111: Type 'LeanTween' already defines a member called 'textColor' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(1239,27): error CS0111: Type 'LeanTween' already defines a member called 'colorText' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(1253,27): error CS0111: Type 'LeanTween' already defines a member called 'delayedCall' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(1257,27): error CS0111: Type 'LeanTween' already defines a member called 'delayedCall' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(1261,27): error CS0111: Type 'LeanTween' already defines a member called 'delayedCall' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(1266,27): error CS0111: Type 'LeanTween' already defines a member called 'delayedCall' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(1270,27): error CS0111: Type 'LeanTween' already defines a member called 'destroyAfter' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(1289,27): error CS0111: Type 'LeanTween' already defines a member called 'move' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(1293,27): error CS0111: Type 'LeanTween' already defines a member called 'move' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(1312,27): error CS0111: Type 'LeanTween' already defines a member called 'move' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(1322,27): error CS0111: Type 'LeanTween' already defines a member called 'move' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(1329,27): error CS0111: Type 'LeanTween' already defines a member called 'move' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(1408,27): error CS0111: Type 'LeanTween' already defines a member called 'move' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(1528,27): error CS0111: Type 'LeanTween' already defines a member called 'move' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(1992,27): error CS0111: Type 'LeanTween' already defines a member called 'move' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(1350,27): error CS0111: Type 'LeanTween' already defines a member called 'moveSpline' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(1371,27): error CS0111: Type 'LeanTween' already defines a member called 'moveSpline' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(1392,27): error CS0111: Type 'LeanTween' already defines a member called 'moveSplineLocal' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(1412,27): error CS0111: Type 'LeanTween' already defines a member called 'moveMargin' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(1425,27): error CS0111: Type 'LeanTween' already defines a member called 'moveX' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(2006,27): error CS0111: Type 'LeanTween' already defines a member called 'moveX' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(1438,27): error CS0111: Type 'LeanTween' already defines a member called 'moveY' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(2020,27): error CS0111: Type 'LeanTween' already defines a member called 'moveY' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(1451,27): error CS0111: Type 'LeanTween' already defines a member called 'moveZ' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(2034,27): error CS0111: Type 'LeanTween' already defines a member called 'moveZ' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(1464,27): error CS0111: Type 'LeanTween' already defines a member called 'moveLocal' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(1483,27): error CS0111: Type 'LeanTween' already defines a member called 'moveLocal' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(1505,27): error CS0111: Type 'LeanTween' already defines a member called 'moveLocal' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(1511,27): error CS0111: Type 'LeanTween' already defines a member called 'moveLocal' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(1493,27): error CS0111: Type 'LeanTween' already defines a member called 'moveLocalX' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(1497,27): error CS0111: Type 'LeanTween' already defines a member called 'moveLocalY' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(1501,27): error CS0111: Type 'LeanTween' already defines a member called 'moveLocalZ' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(1543,27): error CS0111: Type 'LeanTween' already defines a member called 'rotate' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(1561,27): error CS0111: Type 'LeanTween' already defines a member called 'rotate' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(2048,27): error CS0111: Type 'LeanTween' already defines a member called 'rotate' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(2052,27): error CS0111: Type 'LeanTween' already defines a member called 'rotate' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(1574,27): error CS0111: Type 'LeanTween' already defines a member called 'rotateLocal' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(1587,27): error CS0111: Type 'LeanTween' already defines a member called 'rotateX' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(1600,27): error CS0111: Type 'LeanTween' already defines a member called 'rotateY' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(1613,27): error CS0111: Type 'LeanTween' already defines a member called 'rotateZ' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(1630,27): error CS0111: Type 'LeanTween' already defines a member called 'rotateAround' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(2067,27): error CS0111: Type 'LeanTween' already defines a member called 'rotateAround' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(1647,27): error CS0111: Type 'LeanTween' already defines a member called 'rotateAroundLocal' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(2082,27): error CS0111: Type 'LeanTween' already defines a member called 'rotateAroundLocal' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(1660,27): error CS0111: Type 'LeanTween' already defines a member called 'scale' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(1687,27): error CS0111: Type 'LeanTween' already defines a member called 'scale' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(2096,27): error CS0111: Type 'LeanTween' already defines a member called 'scale' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(1700,27): error CS0111: Type 'LeanTween' already defines a member called 'scaleX' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(1713,27): error CS0111: Type 'LeanTween' already defines a member called 'scaleY' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(1726,27): error CS0111: Type 'LeanTween' already defines a member called 'scaleZ' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(1750,27): error CS0111: Type 'LeanTween' already defines a member called 'value' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(1753,27): error CS0111: Type 'LeanTween' already defines a member called 'value' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(1777,27): error CS0111: Type 'LeanTween' already defines a member called 'value' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(1801,27): error CS0111: Type 'LeanTween' already defines a member called 'value' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(1825,27): error CS0111: Type 'LeanTween' already defines a member called 'value' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(1860,27): error CS0111: Type 'LeanTween' already defines a member called 'value' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(1888,27): error CS0111: Type 'LeanTween' already defines a member called 'value' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(1916,27): error CS0111: Type 'LeanTween' already defines a member called 'value' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(1920,27): error CS0111: Type 'LeanTween' already defines a member called 'value' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(1936,27): error CS0111: Type 'LeanTween' already defines a member called 'value' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(1951,27): error CS0111: Type 'LeanTween' already defines a member called 'value' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(1966,27): error CS0111: Type 'LeanTween' already defines a member called 'value' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(1970,27): error CS0111: Type 'LeanTween' already defines a member called 'delayedSound' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(1975,27): error CS0111: Type 'LeanTween' already defines a member called 'delayedSound' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(2110,27): error CS0111: Type 'LeanTween' already defines a member called 'size' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(2146,25): error CS0111: Type 'LeanTween' already defines a member called 'tweenOnCurve' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(2151,27): error CS0111: Type 'LeanTween' already defines a member called 'tweenOnCurveVector' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(2157,25): error CS0111: Type 'LeanTween' already defines a member called 'easeOutQuadOpt' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(2161,25): error CS0111: Type 'LeanTween' already defines a member called 'easeInQuadOpt' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(2165,25): error CS0111: Type 'LeanTween' already defines a member called 'easeInOutQuadOpt' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(2172,27): error CS0111: Type 'LeanTween' already defines a member called 'easeInOutQuadOpt' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(2179,25): error CS0111: Type 'LeanTween' already defines a member called 'linear' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(2183,25): error CS0111: Type 'LeanTween' already defines a member called 'clerp' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(2199,25): error CS0111: Type 'LeanTween' already defines a member called 'spring' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(2205,25): error CS0111: Type 'LeanTween' already defines a member called 'easeInQuad' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(2210,25): error CS0111: Type 'LeanTween' already defines a member called 'easeOutQuad' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(2215,25): error CS0111: Type 'LeanTween' already defines a member called 'easeInOutQuad' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(2224,25): error CS0111: Type 'LeanTween' already defines a member called 'easeInOutQuadOpt2' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(2231,25): error CS0111: Type 'LeanTween' already defines a member called 'easeInCubic' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(2236,25): error CS0111: Type 'LeanTween' already defines a member called 'easeOutCubic' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(2242,25): error CS0111: Type 'LeanTween' already defines a member called 'easeInOutCubic' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(2250,25): error CS0111: Type 'LeanTween' already defines a member called 'easeInQuart' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(2255,25): error CS0111: Type 'LeanTween' already defines a member called 'easeOutQuart' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(2261,25): error CS0111: Type 'LeanTween' already defines a member called 'easeInOutQuart' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(2269,25): error CS0111: Type 'LeanTween' already defines a member called 'easeInQuint' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(2274,25): error CS0111: Type 'LeanTween' already defines a member called 'easeOutQuint' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(2280,25): error CS0111: Type 'LeanTween' already defines a member called 'easeInOutQuint' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(2288,25): error CS0111: Type 'LeanTween' already defines a member called 'easeInSine' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(2293,25): error CS0111: Type 'LeanTween' already defines a member called 'easeOutSine' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(2298,25): error CS0111: Type 'LeanTween' already defines a member called 'easeInOutSine' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(2303,25): error CS0111: Type 'LeanTween' already defines a member called 'easeInExpo' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(2308,25): error CS0111: Type 'LeanTween' already defines a member called 'easeOutExpo' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(2313,25): error CS0111: Type 'LeanTween' already defines a member called 'easeInOutExpo' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(2321,25): error CS0111: Type 'LeanTween' already defines a member called 'easeInCirc' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(2326,25): error CS0111: Type 'LeanTween' already defines a member called 'easeOutCirc' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(2332,25): error CS0111: Type 'LeanTween' already defines a member called 'easeInOutCirc' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(2340,25): error CS0111: Type 'LeanTween' already defines a member called 'easeInBounce' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(2346,25): error CS0111: Type 'LeanTween' already defines a member called 'easeOutBounce' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(2363,25): error CS0111: Type 'LeanTween' already defines a member called 'easeInOutBounce' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(2370,25): error CS0111: Type 'LeanTween' already defines a member called 'easeInBack' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(2377,25): error CS0111: Type 'LeanTween' already defines a member called 'easeOutBack' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(2384,25): error CS0111: Type 'LeanTween' already defines a member called 'easeInOutBack' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(2397,25): error CS0111: Type 'LeanTween' already defines a member called 'easeInElastic' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(2423,25): error CS0111: Type 'LeanTween' already defines a member called 'easeOutElastic' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(2448,25): error CS0111: Type 'LeanTween' already defines a member called 'easeInOutElastic' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(2498,27): error CS0111: Type 'LeanTween' already defines a member called 'followDamp' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(2567,27): error CS0111: Type 'LeanTween' already defines a member called 'followSpring' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(2637,27): error CS0111: Type 'LeanTween' already defines a member called 'followBounceOut' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(2702,27): error CS0111: Type 'LeanTween' already defines a member called 'followLinear' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(2764,24): error CS0111: Type 'LeanTween' already defines a member called 'addListener' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(2780,24): error CS0111: Type 'LeanTween' already defines a member called 'addListener' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(2813,24): error CS0111: Type 'LeanTween' already defines a member called 'removeListener' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(2817,24): error CS0111: Type 'LeanTween' already defines a member called 'removeListener' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(2836,24): error CS0111: Type 'LeanTween' already defines a member called 'removeListener' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(2859,24): error CS0111: Type 'LeanTween' already defines a member called 'dispatchEvent' with the same parameter types
+
+-----------------------------
+[Error] Assets\Plugins\LeanTween\LeanTween1.cs(2875,24): error CS0111: Type 'LeanTween' already defines a member called 'dispatchEvent' with the same parameter types
+
+-----------------------------
+[Error] Assets\Scripts\UnityAdsManager.cs(32,27): error CS0117: 'Advertisement' does not contain a definition for 'IsReady'
+
+-----------------------------
+[Error] Assets\Scripts\UnityAdsManager.cs(42,27): error CS0117: 'Advertisement' does not contain a definition for 'IsReady'
+
+-----------------------------
+[Error] Assets\Scripts\UnityAdsManager.cs(32,27): error CS0117: 'Advertisement' does not contain a definition for 'IsReady'
+
+-----------------------------
+[Error] Assets\Scripts\SafeAreaInitializer.cs(28,65): error CS0246: The type or namespace name 'SafeAreaWithSwipeQuit' could not be found (are you missing a using directive or an assembly reference?)
+
+-----------------------------
+[Error] Assets\Scripts\SafeAreaInitializer.cs(30,44): error CS0246: The type or namespace name 'SafeAreaWithSwipeQuit' could not be found (are you missing a using directive or an assembly reference?)
+
+-----------------------------
+[Error] Assets\Scripts\SafeAreaInitializer.cs(34,33): error CS0246: The type or namespace name 'SafeAreaWithSwipeQuit' could not be found (are you missing a using directive or an assembly reference?)
+
+-----------------------------
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+UnityAdsManager.OnUnityAdsShowComplete (System.String placementId, UnityEngine.Advertisements.UnityAdsShowCompletionState showCompletionState) (at Assets/Scripts/UnityAdsManager.cs:100)
+UnityEngine.Advertisements.UnityAdsShowListenerMainDispatch+<>c__DisplayClass6_0.<OnUnityAdsShowComplete>b__0 () (at ./Library/PackageCache/com.unity.ads/Runtime/Advertisement/Dispatchers/UnityAdsShowListenerMainDispatch.cs:32)
+UnityEngine.Advertisements.Utilities.CoroutineExecutor.Update () (at ./Library/PackageCache/com.unity.ads/Runtime/Advertisement/Utilities/CoroutineExecutor.cs:17)
+
+-----------------------------
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+UnityAdsManager.OnUnityAdsShowComplete (System.String placementId, UnityEngine.Advertisements.UnityAdsShowCompletionState showCompletionState) (at Assets/Scripts/UnityAdsManager.cs:100)
+UnityEngine.Advertisements.UnityAdsShowListenerMainDispatch+<>c__DisplayClass6_0.<OnUnityAdsShowComplete>b__0 () (at ./Library/PackageCache/com.unity.ads/Runtime/Advertisement/Dispatchers/UnityAdsShowListenerMainDispatch.cs:32)
+UnityEngine.Advertisements.Utilities.CoroutineExecutor.Update () (at ./Library/PackageCache/com.unity.ads/Runtime/Advertisement/Utilities/CoroutineExecutor.cs:17)
+
+-----------------------------
+[Error] ❌ 広告終了後の処理で例外: Object reference not set to an instance of an object
+UnityEngine.Debug:LogError (object)
+UnityAdsManager:OnUnityAdsShowComplete (string,UnityEngine.Advertisements.UnityAdsShowCompletionState) (at Assets/Scripts/UnityAdsManager.cs:114)
+UnityEngine.Advertisements.Utilities.CoroutineExecutor:Update () (at ./Library/PackageCache/com.unity.ads/Runtime/Advertisement/Utilities/CoroutineExecutor.cs:17)
+
+-----------------------------
+[Error] ❌ 広告終了後の処理で例外: Object reference not set to an instance of an object
+UnityEngine.Debug:LogError (object)
+UnityAdsManager:OnUnityAdsShowComplete (string,UnityEngine.Advertisements.UnityAdsShowCompletionState) (at Assets/Scripts/UnityAdsManager.cs:116)
+UnityEngine.Advertisements.Utilities.CoroutineExecutor:Update () (at ./Library/PackageCache/com.unity.ads/Runtime/Advertisement/Utilities/CoroutineExecutor.cs:17)
+
+-----------------------------
+[Error] ❌ 広告終了後の処理で例外: Object reference not set to an instance of an object
+  at UnityAdsManager.OnUnityAdsShowComplete (System.String placementId, UnityEngine.Advertisements.UnityAdsShowCompletionState showCompletionState) [0x00023] in C:\Users\Yukinixi\Unity\FruitTsumuGame\Assets\Scripts\UnityAdsManager.cs:102 
+UnityEngine.Debug:LogError (object)
+UnityAdsManager:OnUnityAdsShowComplete (string,UnityEngine.Advertisements.UnityAdsShowCompletionState) (at Assets/Scripts/UnityAdsManager.cs:115)
+UnityEngine.Advertisements.Utilities.CoroutineExecutor:Update () (at ./Library/PackageCache/com.unity.ads/Runtime/Advertisement/Utilities/CoroutineExecutor.cs:17)
+
+-----------------------------
+[Error] ❌ rewardPopup が null！インスペクターで設定されていません！
+UnityEngine.Debug:LogError (object)
+UnityAdsManager:OnUnityAdsShowComplete (string,UnityEngine.Advertisements.UnityAdsShowCompletionState) (at Assets/Scripts/UnityAdsManager.cs:110)
+UnityEngine.Advertisements.Utilities.CoroutineExecutor:Update () (at ./Library/PackageCache/com.unity.ads/Runtime/Advertisement/Utilities/CoroutineExecutor.cs:17)
+
+-----------------------------
+[Error] Assets\Scripts\GameUIController.cs(19,1): error CS1529: A using clause must precede all other elements defined in the namespace except extern alias declarations
+
+-----------------------------
+[Error] Assets\Scripts\GameUIController.cs(20,1): error CS1529: A using clause must precede all other elements defined in the namespace except extern alias declarations
+
+-----------------------------
+[Error] Assets\Scripts\GameUIController.cs(21,1): error CS1529: A using clause must precede all other elements defined in the namespace except extern alias declarations
+
+-----------------------------
+[Error] Assets\Scripts\OldGameUIController.cs(5,14): error CS0101: The namespace '<global namespace>' already contains a definition for 'GameUIController'
+
+-----------------------------
+[Error] Assets\Scripts\OldGameUIController.cs(9,10): error CS0111: Type 'GameUIController' already defines a member called 'Start' with the same parameter types
+
+-----------------------------
+[Error] Assets\Scripts\OldGameUIController.cs(59,17): error CS0111: Type 'GameUIController' already defines a member called 'ShowPopup' with the same parameter types
+
+-----------------------------
+[Error] Assets\Scripts\OldGameUIController.cs(33,17): error CS0111: Type 'GameUIController' already defines a member called 'CloseAllPopups' with the same parameter types
+
+-----------------------------
+[Error] Assets\Scripts\OldGameUIController.cs(84,18): error CS0111: Type 'GameUIController' already defines a member called 'SetDismissAreas' with the same parameter types
+
+-----------------------------
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+PauseManager+<ShowPopupAfterFrame>d__3.MoveNext () (at Assets/Scripts/PauseManager.cs:27)
+UnityEngine.SetupCoroutine.InvokeMoveNext (System.Collections.IEnumerator enumerator, System.IntPtr returnValueAddress) (at <b5bf0c891ea345fe93688f835df32fdc>:0)
+
+-----------------------------
+[Error] PauseManager: ShowPopup失敗。UIController も GameUIController も設定されていません。
+UnityEngine.Debug:LogError (object)
+PauseManager/<ShowPopupAfterFrame>d__4:MoveNext () (at Assets/Scripts/PauseManager.cs:38)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+-----------------------------
+[Error] Coroutine couldn't be started because the the game object 'PauseManager' is inactive!
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+PauseManager:OpenSettingsPanel () (at Assets/Scripts/PauseManager.cs:12)
+UnityEngine.EventSystems.EventSystem:Update ()
+
+-----------------------------
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+TouchInput.OnEnable () (at Assets/Scripts/TouchInput.cs:15)
+
+-----------------------------
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+TouchInput.OnDisable () (at Assets/Scripts/TouchInput.cs:21)
+
+-----------------------------
+[Error] Assets\Scripts\MenuTouchInput.cs(6,13): error CS0246: The type or namespace name 'MenuInputActions' could not be found (are you missing a using directive or an assembly reference?)
+
+-----------------------------
+[Error] Assets\Scripts\MenuTouchInput.cs(6,13): error CS0246: The type or namespace name 'MenuInputActions' could not be found (are you missing a using directive or an assembly reference?)
+
+-----------------------------
+[Error] Assets\Scripts\MenuTouchInput.cs(23,18): error CS1061: 'InputSystem_Actions' does not contain a definition for 'Touch' and no accessible extension method 'Touch' accepting a first argument of type 'InputSystem_Actions' could be found (are you missing a using directive or an assembly reference?)
+
+-----------------------------
+[Error] Assets\Scripts\MenuTouchInput.cs(24,18): error CS1061: 'InputSystem_Actions' does not contain a definition for 'Touch' and no accessible extension method 'Touch' accepting a first argument of type 'InputSystem_Actions' could be found (are you missing a using directive or an assembly reference?)
+
+-----------------------------
+[Error] Assets\Scripts\MenuTouchInput.cs(26,18): error CS1061: 'InputSystem_Actions' does not contain a definition for 'Touch' and no accessible extension method 'Touch' accepting a first argument of type 'InputSystem_Actions' could be found (are you missing a using directive or an assembly reference?)
+
+-----------------------------
+[Error] Assets\Scripts\MenuTouchInput.cs(34,18): error CS1061: 'InputSystem_Actions' does not contain a definition for 'Touch' and no accessible extension method 'Touch' accepting a first argument of type 'InputSystem_Actions' could be found (are you missing a using directive or an assembly reference?)
+
+-----------------------------
+[Error] Assets\Scripts\MenuTouchInput.cs(35,18): error CS1061: 'InputSystem_Actions' does not contain a definition for 'Touch' and no accessible extension method 'Touch' accepting a first argument of type 'InputSystem_Actions' could be found (are you missing a using directive or an assembly reference?)
+
+-----------------------------
+[Error] Assets\Scripts\MenuTouchInput.cs(36,18): error CS1061: 'InputSystem_Actions' does not contain a definition for 'Touch' and no accessible extension method 'Touch' accepting a first argument of type 'InputSystem_Actions' could be found (are you missing a using directive or an assembly reference?)
+
+-----------------------------
+[Error] Unable to write to 'ProjectSettings\GvhProjectSettings.xml' (System.IO.IOException: Sharing violation on path C:\Users\Yukinixi\Unity\FruitTsumuGame\ProjectSettings\GvhProjectSettings.xml
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <321eb2db7c6d43ea8fc39b54eaca3452>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <321eb2db7c6d43ea8fc39b54eaca3452>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding, System.Int32 bufferSize) [0x00055] in <321eb2db7c6d43ea8fc39b54eaca3452>:0 
+  at System.IO.StreamWriter..ctor (System.String path) [0x00008] in <321eb2db7c6d43ea8fc39b54eaca3452>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamWriter..ctor(string)
+  at Google.ProjectSettings.Save () [0x0006d] in <bc484ae24804425b9f40a568d4bcd71d>:0 , Project settings were not saved!
+UnityEngine.Debug:LogError (object)
+Google.Logger:Log (string,Google.LogLevel)
+Google.ProjectSettings:Save ()
+Google.ProjectSettings:SetBool (string,bool,Google.SettingsLocation)
+Google.ProjectSettings:SetBool (string,bool)
+Google.VersionHandlerImpl:set_VerboseLoggingEnabled (bool)
+Google.VersionHandlerImpl:<VersionHandlerImpl>m__B ()
+Google.RunOnMainThread:ExecuteNext ()
+Google.RunOnMainThread:<ExecuteAll>m__A ()
+Google.RunOnMainThread:RunAction (System.Action)
+Google.RunOnMainThread:ExecuteAll ()
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+-----------------------------
+[Error] ❌ UIController がシーンに見つかりません！
+UnityEngine.Debug:LogError (object)
+RewardPopupController:Start () (at Assets/Scripts/RewardPopupController.cs:17)
+
+-----------------------------
+[Error] ❌ UIController がまだ存在しません
+UnityEngine.Debug:LogError (object)
+RewardPopupController:OnEnable () (at Assets/Scripts/RewardPopupController.cs:20)
+
+-----------------------------
+[Error] ❌ UIController がまだ存在しません
+UnityEngine.Debug:LogError (object)
+RewardPopupController:OnEnable () (at Assets/Scripts/RewardPopupController.cs:20)
+
+-----------------------------
+[Error] ❌ UIController がまだ存在しません
+UnityEngine.Debug:LogError (object)
+RewardPopupController:OnEnable () (at Assets/Scripts/RewardPopupController.cs:20)
+
+-----------------------------
+[Error] ❌ UIController がまだ存在しません
+UnityEngine.Debug:LogError (object)
+RewardPopupController:OnEnable () (at Assets/Scripts/RewardPopupController.cs:20)
+
+-----------------------------
+[Error] Assets\Scripts\RewardPopupController.cs(14,25): error CS0019: Operator '??' cannot be applied to operands of type 'UIController' and 'IUIManager'
+
+-----------------------------
+[Error] ❌ UIManager が見つかりません！
+UnityEngine.Debug:LogError (object)
+RewardPopupController:OnEnable () (at Assets/Scripts/RewardPopupController.cs:20)
+
+-----------------------------
+[Error] Unable to write to 'ProjectSettings\GvhProjectSettings.xml' (System.IO.IOException: Sharing violation on path C:\Users\Yukinixi\Unity\FruitTsumuGame\ProjectSettings\GvhProjectSettings.xml
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <321eb2db7c6d43ea8fc39b54eaca3452>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <321eb2db7c6d43ea8fc39b54eaca3452>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding, System.Int32 bufferSize) [0x00055] in <321eb2db7c6d43ea8fc39b54eaca3452>:0 
+  at System.IO.StreamWriter..ctor (System.String path) [0x00008] in <321eb2db7c6d43ea8fc39b54eaca3452>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamWriter..ctor(string)
+  at Google.ProjectSettings.Save () [0x0006d] in <bc484ae24804425b9f40a568d4bcd71d>:0 , Project settings were not saved!
+UnityEngine.Debug:LogError (object)
+Google.Logger:Log (string,Google.LogLevel)
+Google.ProjectSettings:Save ()
+Google.ProjectSettings:SetBool (string,bool,Google.SettingsLocation)
+Google.ProjectSettings:SetBool (string,bool)
+Google.VersionHandlerImpl:set_VerboseLoggingEnabled (bool)
+Google.VersionHandlerImpl:<VersionHandlerImpl>m__B ()
+Google.RunOnMainThread:ExecuteNext ()
+Google.RunOnMainThread:<ExecuteAll>m__A ()
+Google.RunOnMainThread:RunAction (System.Action)
+Google.RunOnMainThread:ExecuteAll ()
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+-----------------------------
+[Error] ❌ UIManager が見つかりません！
+UnityEngine.Debug:LogError (object)
+RewardPopupController:OnEnable () (at Assets/Scripts/RewardPopupController.cs:20)
+
+-----------------------------
+[Error] ❌ UIManager が見つかりません！
+UnityEngine.Debug:LogError (object)
+RewardPopupController:OnEnable () (at Assets/Scripts/RewardPopupController.cs:28)
+
+-----------------------------
+[Error] ❌ UIManager が見つかりません！
+UnityEngine.Debug:LogError (object)
+RewardPopupController:Start () (at Assets/Scripts/RewardPopupController.cs:30)
+
+-----------------------------
+[Error] ❌ UIManager が見つかりません！
+UnityEngine.Debug:LogError (object)
+RewardPopupController/<Start>d__4:MoveNext () (at Assets/Scripts/RewardPopupController.cs:31)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+-----------------------------
+[Error] Unable to write to 'ProjectSettings\GvhProjectSettings.xml' (System.IO.IOException: Sharing violation on path C:\Users\Yukinixi\Unity\FruitTsumuGame\ProjectSettings\GvhProjectSettings.xml
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <321eb2db7c6d43ea8fc39b54eaca3452>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <321eb2db7c6d43ea8fc39b54eaca3452>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding, System.Int32 bufferSize) [0x00055] in <321eb2db7c6d43ea8fc39b54eaca3452>:0 
+  at System.IO.StreamWriter..ctor (System.String path) [0x00008] in <321eb2db7c6d43ea8fc39b54eaca3452>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamWriter..ctor(string)
+  at Google.ProjectSettings.Save () [0x0006d] in <bc484ae24804425b9f40a568d4bcd71d>:0 , Project settings were not saved!
+UnityEngine.Debug:LogError (object)
+Google.Logger:Log (string,Google.LogLevel)
+Google.ProjectSettings:Save ()
+Google.ProjectSettings:SetBool (string,bool,Google.SettingsLocation)
+Google.ProjectSettings:SetBool (string,bool)
+Google.VersionHandlerImpl:set_VerboseLoggingEnabled (bool)
+Google.VersionHandlerImpl:<VersionHandlerImpl>m__B ()
+Google.RunOnMainThread:ExecuteNext ()
+Google.RunOnMainThread:<ExecuteAll>m__A ()
+Google.RunOnMainThread:RunAction (System.Action)
+Google.RunOnMainThread:ExecuteAll ()
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+-----------------------------
