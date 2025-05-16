@@ -102,6 +102,13 @@ public class SaveManager : MonoBehaviour
     {
         StartCoroutine(LoadGameCoroutine());
     }
+    public static void DebugAllSettings()
+    {
+        Debug.Log($"[SaveManager] IsMusicEnabled = {IsMusicEnabled()}");
+        Debug.Log($"[SaveManager] IsSoundEnabled = {IsSoundEnabled()}");
+        Debug.Log($"[SaveManager] IsVibrateEnabled = {IsVibrateEnabled()}");
+        Debug.Log($"[SaveManager] IsAdsEnabled = {IsAdsEnabled()}");
+    }
 
     public void SaveGame()
     {

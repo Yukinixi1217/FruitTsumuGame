@@ -2172,3 +2172,9 @@ Google.RunOnMainThread:ExecuteAll ()
 UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
 
 -----------------------------
+[Error] database is locked
+
+-----------------------------
+[Error] Failed to delete database file Library/ShaderCache.db
+
+-----------------------------

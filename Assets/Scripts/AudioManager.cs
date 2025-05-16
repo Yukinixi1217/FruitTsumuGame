@@ -27,6 +27,11 @@ public class AudioManager : MonoBehaviour
     private void Start()
     {
         Debug.Log("AudioListener.volume = " + AudioListener.volume);
+        Debug.Log("SaveManager.IsMusicEnabled() = " + SaveManager.IsMusicEnabled());
+        Debug.Log("BGM Clip = " + (bgmClip != null ? bgmClip.name : "null"));
+        Debug.Log("BGM AudioSource = " + (bgmAudioSource != null ? "OK" : "null"));
+
+        SaveManager.DebugAllSettings();  // 👈 この行を追加
 
         // もし 0 だったら強制的に 1 にする
         if (AudioListener.volume <= 0f)
@@ -40,8 +45,8 @@ public class AudioManager : MonoBehaviour
             bgmAudioSource.loop = true;
             bgmAudioSource.Play();
             Debug.Log("[AudioManager] BGM再生開始");
-            
         }
+
     }
 
     public void SetMusicMute(bool isMuted)

@@ -6,6 +6,11 @@ public class MenuStartManager : MonoBehaviour
 
     void Start()
     {
+        // BGM設定を強制ONにする（開発時のみ）
+        //PlayerPrefs.SetInt("Settings_Music", 1);
+        //PlayerPrefs.Save();
+        //Debug.Log("[Init] Settings_Music を 1（ON）に初期化しました");
+
         EnsureVibrationManager();
 
         // BGM 再生（必要なら）

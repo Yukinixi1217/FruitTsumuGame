@@ -4268,9 +4268,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cb966496638771540b393d6d3b665846, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canvasGroup: {fileID: 7193833272113807223}
-  popupRoot: {fileID: 2949150130422250783}
+  popupCanvasGroup: {fileID: 7193833272113807223}
   rewardText: {fileID: 5448409228418181077}
+  showDuration: 2
 --- !u!1 &1212014645355735536
 GameObject:
   m_ObjectHideFlags: 0
@@ -8538,7 +8538,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -10346,7 +10346,7 @@ CanvasGroup:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 818788779630833710}
   m_Enabled: 1
-  m_Alpha: 1
+  m_Alpha: 0
   m_Interactable: 1
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 1
