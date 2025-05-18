@@ -266,10 +266,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   uiGroups:
-  - {fileID: 8080617488046877428}
-  - {fileID: 9040544054486331615}
-  settingDismissArea: {fileID: 1046822734529730907}
-  treasureDismissArea: {fileID: 175422164966768790}
+  - name: Settings
+    canvasGroup: {fileID: 1492079581775858018}
+    panelTransform: {fileID: 2897820816561859251}
+  - name: Treasure
+    canvasGroup: {fileID: 8153333375363062690}
+    panelTransform: {fileID: 8753471965257444447}
+  SettingDismissArea: {fileID: 1046822734529730907}
+  TreasureDismissArea: {fileID: 175422164966768790}
+  SettingButton: {fileID: 1530358375888125789}
+  AddCoinButton: {fileID: 5753861339203047938}
 --- !u!1 &238968577
 GameObject:
   m_ObjectHideFlags: 0
@@ -3317,7 +3323,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 0.003921569}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -4270,7 +4276,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   popupCanvasGroup: {fileID: 7193833272113807223}
   rewardText: {fileID: 5448409228418181077}
-  showDuration: 2
+  panelTransform: {fileID: 1516786922202257246}
+  popupScale: 1
+  duration: 0.3
+  autoHideDelay: 2
+  debugSlowMode: 1
 --- !u!1 &1212014645355735536
 GameObject:
   m_ObjectHideFlags: 0
@@ -4552,10 +4562,10 @@ CanvasGroup:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2284587177022593668}
   m_Enabled: 1
-  m_Alpha: 1
-  m_Interactable: 1
-  m_BlocksRaycasts: 1
-  m_IgnoreParentGroups: 1
+  m_Alpha: 0
+  m_Interactable: 0
+  m_BlocksRaycasts: 0
+  m_IgnoreParentGroups: 0
 --- !u!222 &1495453073123606199
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5958,6 +5968,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4b6308707eea7c4ea402936a6c70c19, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  coinText: {fileID: 6622601456293804378}
 --- !u!222 &3030378142323084736
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6460,7 +6471,7 @@ GameObject:
   - component: {fileID: 6723883158876430162}
   - component: {fileID: 569804196235714629}
   m_Layer: 5
-  m_Name: RewardPopup
+  m_Name: RewardPopupPanel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10439,7 +10450,7 @@ GameObject:
   - component: {fileID: 6622601456293804378}
   m_Layer: 5
   m_Name: CoinText
-  m_TagString: Untagged
+  m_TagString: CoinText
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11461,10 +11472,10 @@ CanvasGroup:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9058911213146660679}
   m_Enabled: 1
-  m_Alpha: 1
-  m_Interactable: 1
-  m_BlocksRaycasts: 1
-  m_IgnoreParentGroups: 1
+  m_Alpha: 0
+  m_Interactable: 0
+  m_BlocksRaycasts: 0
+  m_IgnoreParentGroups: 0
 --- !u!224 &8172580617369081574
 RectTransform:
   m_ObjectHideFlags: 0

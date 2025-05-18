@@ -26,6 +26,7 @@ public class UIController : MonoBehaviour, IUIManager
     [SerializeField] private Image treasureDismissArea;
 
     private readonly HashSet<string> excludedGroupNames = new() { "Home" };
+
     public void Hide()
     {
         Debug.Log("UIController.Hide() は未実装です");
@@ -43,6 +44,21 @@ public class UIController : MonoBehaviour, IUIManager
                 Debug.Log($"[登録] uiGroups: {entry.name} → {entry.canvasGroup.name}");
             }
         }
+
+        // 起動直後にすべての CanvasGroup を非表示にする（明示的に設定）
+        foreach (var kvp in groupDict)
+        {
+            var group = kvp.Value;
+            bool isHome = excludedGroupNames.Contains(kvp.Key);
+
+            group.alpha = isHome ? 1f : 0f;
+            group.interactable = isHome;
+            group.blocksRaycasts = isHome;
+        }
+
+        SetDismissAreaState(popupDismissArea, false);
+        SetDismissAreaState(settingDismissArea, false);
+        SetDismissAreaState(treasureDismissArea, false);
 
         Show("Home");
     }

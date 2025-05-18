@@ -2178,3 +2178,235 @@ UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
 [Error] Failed to delete database file Library/ShaderCache.db
 
 -----------------------------
+[Error] Assets\Scripts\GameUIController.cs(125,9): error CS0103: The name 'currentGroup' does not exist in the current context
+
+-----------------------------
+[Exception] NullReferenceException: Object reference not set to an instance of an object.
+UnityEngine.Bindings.ThrowHelper.ThrowNullReferenceException (System.Object obj) (at <b5bf0c891ea345fe93688f835df32fdc>:0)
+UnityEngine.CanvasGroup.get_alpha () (at <d0f4a786cf3448fbb34488308fe7af99>:0)
+GameUIController.Awake () (at Assets/Scripts/GameUIController.cs:41)
+
+-----------------------------
+[Error] ❌ CanvasGroup が null: 
+UnityEngine.Debug:LogError (object)
+GameUIController:Awake () (at Assets/Scripts/GameUIController.cs:55)
+
+-----------------------------
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+GameUIController.Start () (at Assets/Scripts/GameUIController.cs:37)
+
+-----------------------------
+[Error] ❌ SettingButton が未設定です
+UnityEngine.Debug:LogError (object)
+GameUIController:Start () (at Assets/Scripts/GameUIController.cs:55)
+
+-----------------------------
+[Error] ❌ AddCoinButton が未設定です
+UnityEngine.Debug:LogError (object)
+GameUIController:Start () (at Assets/Scripts/GameUIController.cs:64)
+
+-----------------------------
+[Error] ❌ UIManager が見つかりません！
+UnityEngine.Debug:LogError (object)
+RewardPopupController/<Start>d__4:MoveNext () (at Assets/Scripts/RewardPopupController.cs:31)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+-----------------------------
+[Error] Assets\Scripts\RewardPopupController.cs(19,25): error CS0311: The type 'IUIManager' cannot be used as type parameter 'T' in the generic type or method 'Object.FindObjectOfType<T>()'. There is no implicit reference conversion from 'IUIManager' to 'UnityEngine.Object'.
+
+-----------------------------
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+TouchInput.OnEnable () (at Assets/Scripts/TouchInput.cs:17)
+
+-----------------------------
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+TouchInput.OnDisable () (at Assets/Scripts/TouchInput.cs:25)
+
+-----------------------------
+[Error] ❌ UIManager が見つかりません！
+UnityEngine.Debug:LogError (object)
+RewardPopupController/<Start>d__4:MoveNext () (at Assets/Scripts/RewardPopupController.cs:30)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+-----------------------------
+[Error] ❌ UIManager が見つかりません！
+UnityEngine.Debug:LogError (object)
+RewardPopupController/<Start>d__4:MoveNext () (at Assets/Scripts/RewardPopupController.cs:30)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+-----------------------------
+[Error] ❌ UIManager が見つかりません！
+UnityEngine.Debug:LogError (object)
+RewardPopupController/<Start>d__4:MoveNext () (at Assets/Scripts/RewardPopupController.cs:30)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+-----------------------------
+[Error] ❌ SettingButton が未設定です
+UnityEngine.Debug:LogError (object)
+GameUIController:Start () (at Assets/Scripts/GameUIController.cs:52)
+
+-----------------------------
+[Error] ❌ AddCoinButton が未設定です
+UnityEngine.Debug:LogError (object)
+GameUIController:Start () (at Assets/Scripts/GameUIController.cs:57)
+
+-----------------------------
+[Error] ❌ SettingButton が未設定です
+UnityEngine.Debug:LogError (object)
+GameUIController:Start () (at Assets/Scripts/GameUIController.cs:48)
+
+-----------------------------
+[Error] ❌ AddCoinButton が未設定です
+UnityEngine.Debug:LogError (object)
+GameUIController:Start () (at Assets/Scripts/GameUIController.cs:53)
+
+-----------------------------
+[Exception] NullReferenceException: Object reference not set to an instance of an object.
+UnityEngine.Bindings.ThrowHelper.ThrowNullReferenceException (System.Object obj) (at <b5bf0c891ea345fe93688f835df32fdc>:0)
+UnityEngine.Component.get_gameObject () (at <b5bf0c891ea345fe93688f835df32fdc>:0)
+GameUIController.CloseAllPopups () (at Assets/Scripts/GameUIController.cs:97)
+GameUIController.Start () (at Assets/Scripts/GameUIController.cs:62)
+
+-----------------------------
+[Error] ❌ UIManager が見つかりません！
+UnityEngine.Debug:LogError (object)
+RewardPopupController:Start () (at Assets/Scripts/RewardPopupController.cs:24)
+
+-----------------------------
+[Error] ❌ RewardPopupController の構成が不足しています！
+UnityEngine.Debug:LogError (object)
+RewardPopupController:Show (int) (at Assets/Scripts/RewardPopupController.cs:68)
+UnityAdsManager:OnUnityAdsShowComplete (string,UnityEngine.Advertisements.UnityAdsShowCompletionState) (at Assets/Scripts/UnityAdsManager.cs:118)
+UnityEngine.Advertisements.Utilities.CoroutineExecutor:Update () (at ./Library/PackageCache/com.unity.ads/Runtime/Advertisement/Utilities/CoroutineExecutor.cs:17)
+
+-----------------------------
+[Error] ❌ Panel Transform が設定されていません！
+UnityEngine.Debug:LogError (object)
+RewardPopupController:Start () (at Assets/Scripts/RewardPopupController.cs:38)
+
+-----------------------------
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+TouchInput.OnEnable () (at Assets/Scripts/TouchInput.cs:17)
+
+-----------------------------
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+TouchInput.OnDisable () (at Assets/Scripts/TouchInput.cs:25)
+
+-----------------------------
+[Error] [Package Manager Window] Error while getting access token: Server response is "The requested URL returned error: 400" [Code 400]
+UnityEditor.AsyncHTTPClient:Done (UnityEditor.AsyncHTTPClient/State,int)
+
+-----------------------------
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+TouchInput.OnEnable () (at Assets/Scripts/TouchInput.cs:17)
+
+-----------------------------
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+TouchInput.OnDisable () (at Assets/Scripts/TouchInput.cs:25)
+
+-----------------------------
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+TouchInput.OnEnable () (at Assets/Scripts/TouchInput.cs:17)
+
+-----------------------------
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+TouchInput.OnDisable () (at Assets/Scripts/TouchInput.cs:25)
+
+-----------------------------
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+TouchInput.OnEnable () (at Assets/Scripts/TouchInput.cs:17)
+
+-----------------------------
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+TouchInput.OnDisable () (at Assets/Scripts/TouchInput.cs:25)
+
+-----------------------------
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+TouchInput.OnEnable () (at Assets/Scripts/TouchInput.cs:17)
+
+-----------------------------
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+TouchInput.OnDisable () (at Assets/Scripts/TouchInput.cs:25)
+
+-----------------------------
+[Error] Assets\Scripts\TouchInput.cs(5,14): error CS0101: The namespace '<global namespace>' already contains a definition for 'RewardPopupController'
+
+-----------------------------
+[Error] Assets\Scripts\TouchInput.cs(20,18): error CS0111: Type 'RewardPopupController' already defines a member called 'Start' with the same parameter types
+
+-----------------------------
+[Error] Assets\Scripts\TouchInput.cs(28,17): error CS0111: Type 'RewardPopupController' already defines a member called 'Show' with the same parameter types
+
+-----------------------------
+[Error] Assets\Scripts\TouchInput.cs(56,25): error CS0111: Type 'RewardPopupController' already defines a member called 'HideAfterDelay' with the same parameter types
+
+-----------------------------
+[Error] Assets\Scripts\TouchInput.cs(81,18): error CS0111: Type 'RewardPopupController' already defines a member called 'HideInstant' with the same parameter types
+
+-----------------------------
+[Error] Assets\Scripts\TouchInput.cs(89,24): error CS0111: Type 'RewardPopupController' already defines a member called 'FindFirstUIManager' with the same parameter types
+
+-----------------------------
+[Error] Assets\Scripts\TouchInput.cs(5,14): error CS0101: The namespace '<global namespace>' already contains a definition for 'RewardPopupController'
+
+-----------------------------
+[Error] Assets\Scripts\TouchInput.cs(20,18): error CS0111: Type 'RewardPopupController' already defines a member called 'Start' with the same parameter types
+
+-----------------------------
+[Error] Assets\Scripts\TouchInput.cs(28,17): error CS0111: Type 'RewardPopupController' already defines a member called 'Show' with the same parameter types
+
+-----------------------------
+[Error] Assets\Scripts\TouchInput.cs(56,25): error CS0111: Type 'RewardPopupController' already defines a member called 'HideAfterDelay' with the same parameter types
+
+-----------------------------
+[Error] Assets\Scripts\TouchInput.cs(81,18): error CS0111: Type 'RewardPopupController' already defines a member called 'HideInstant' with the same parameter types
+
+-----------------------------
+[Error] Assets\Scripts\TouchInput.cs(89,24): error CS0111: Type 'RewardPopupController' already defines a member called 'FindFirstUIManager' with the same parameter types
+
+-----------------------------
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+TouchInput.OnEnable () (at Assets/Scripts/TouchInput.cs:17)
+
+-----------------------------
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+TouchInput.OnDisable () (at Assets/Scripts/TouchInput.cs:25)
+
+-----------------------------
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+TouchInput.OnEnable () (at Assets/Scripts/TouchInput.cs:17)
+
+-----------------------------
+[Exception] NullReferenceException: Object reference not set to an instance of an object
+TouchInput.OnDisable () (at Assets/Scripts/TouchInput.cs:25)
+
+-----------------------------
+[Error] ❌ 広告終了後の処理で例外: The variable popupVisualTarget of RewardPopupController has not been assigned.
+You probably need to assign the popupVisualTarget variable of the RewardPopupController script in the inspector.
+  at UnityEngine.Object+MarshalledUnityObject.TryThrowEditorNullExceptionObject (UnityEngine.Object unityObj, System.String parameterName) [0x000cd] in <b5bf0c891ea345fe93688f835df32fdc>:0 
+  at UnityEngine.Bindings.ThrowHelper.ThrowNullReferenceException (System.Object obj) [0x00010] in <b5bf0c891ea345fe93688f835df32fdc>:0 
+  at UnityEngine.Component.get_gameObject () [0x00006] in <b5bf0c891ea345fe93688f835df32fdc>:0 
+  at LeanTween.scale (UnityEngine.RectTransform rectTrans, UnityEngine.Vector3 to, System.Single time) [0x00000] in C:\Users\Yukinixi\Unity\FruitTsumuGame\Assets\Plugins\LeanTween\LeanTween.cs:2097 
+  at RewardPopupController.Show (System.Int32 rewardAmount) [0x0008b] in C:\Users\Yukinixi\Unity\FruitTsumuGame\Assets\Scripts\RewardPopupController.cs:49 
+  at UnityAdsManager.OnUnityAdsShowComplete (System.String placementId, UnityEngine.Advertisements.UnityAdsShowCompletionState showCompletionState) [0x00057] in C:\Users\Yukinixi\Unity\FruitTsumuGame\Assets\Scripts\UnityAdsManager.cs:118 
+UnityEngine.Debug:LogError (object)
+UnityAdsManager:OnUnityAdsShowComplete (string,UnityEngine.Advertisements.UnityAdsShowCompletionState) (at Assets/Scripts/UnityAdsManager.cs:127)
+UnityEngine.Advertisements.Utilities.CoroutineExecutor:Update () (at ./Library/PackageCache/com.unity.ads/Runtime/Advertisement/Utilities/CoroutineExecutor.cs:17)
+
+-----------------------------
+[Exception] UnassignedReferenceException: The variable panelTransform of RewardPopupController has not been assigned.
+You probably need to assign the panelTransform variable of the RewardPopupController script in the inspector.
+UnityEngine.Object+MarshalledUnityObject.TryThrowEditorNullExceptionObject (UnityEngine.Object unityObj, System.String parameterName) (at <b5bf0c891ea345fe93688f835df32fdc>:0)
+UnityEngine.Bindings.ThrowHelper.ThrowNullReferenceException (System.Object obj) (at <b5bf0c891ea345fe93688f835df32fdc>:0)
+UnityEngine.Transform.set_localScale (UnityEngine.Vector3 value) (at <b5bf0c891ea345fe93688f835df32fdc>:0)
+RewardPopupController.Start () (at Assets/Scripts/RewardPopupController.cs:22)
+
+-----------------------------
+[Exception] UnassignedReferenceException: The variable panelTransform of RewardPopupController has not been assigned.
+You probably need to assign the panelTransform variable of the RewardPopupController script in the inspector.
+UnityEngine.Object+MarshalledUnityObject.TryThrowEditorNullExceptionObject (UnityEngine.Object unityObj, System.String parameterName) (at <b5bf0c891ea345fe93688f835df32fdc>:0)
+UnityEngine.Bindings.ThrowHelper.ThrowNullReferenceException (System.Object obj) (at <b5bf0c891ea345fe93688f835df32fdc>:0)
+UnityEngine.Transform.set_localScale (UnityEngine.Vector3 value) (at <b5bf0c891ea345fe93688f835df32fdc>:0)
+RewardPopupController.Start () (at Assets/Scripts/RewardPopupController.cs:22)
+
+-----------------------------
